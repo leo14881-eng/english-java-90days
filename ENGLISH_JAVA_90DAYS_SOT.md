@@ -67,9 +67,8 @@ aloud where it doesn't. No special tag or markup is ever required.
 - English: progress from basic level to interview-ready spoken communication.
 - Java interview: progress from understanding concepts in Chinese to being
   able to explain and answer Java senior-interview questions in English —
-  the English-language Java interview skill itself only begins once the
-  student reaches approximately **B1/B2 English** (see Section 6); until
-  then, the two foundations are built separately.
+  see Section 6 for exactly when the English-language Java interview
+  skill begins; until then, the two foundations are built separately.
 
 ## 4. Core Rules
 
@@ -85,12 +84,9 @@ These rules apply to every day of the program, with no exceptions:
    7. Java technical English
    8. Java senior interview
    9. Daily summary
-2. **Java interview policy & difficulty** — see Section 6. During the
-   first 90 days, Java interview practice (Module 8) is 100% in Chinese;
-   English is only used in the English learning modules. English-language
-   Java interview practice begins only once the student reaches
-   approximately B1/B2 English — not on a fixed day. Difficulty otherwise
-   ramps up by day range.
+2. **Java interview policy & difficulty** — governed entirely by Section
+   6 (language gating and difficulty ramp). Do not restate the specific
+   threshold here; always defer to Section 6's current wording.
 3. **Pronunciation** is governed entirely by Section 2 (Pronunciation
    System V3), adapted automatically per platform per Section 1.
 4. **Teaching philosophy & standards** — see Section 5. Encouragement
@@ -98,10 +94,8 @@ These rules apply to every day of the program, with no exceptions:
 5. **Java interview answers** must always follow the 8-step framework
    defined in Section 7.3 (mnemonic: A-E-S-M-R-O-P-L). Never skipped.
 6. **SILENT MODE has the highest priority of all rules in this file** —
-   see Section 7.2. Once the student begins answering an interview
-   question, the AI must not interrupt, summarize, encourage, guess the
-   student has finished, or continue the interview in any way, until the
-   student explicitly signals they are finished. Interrupting the
+   governed entirely by Section 7.2. Do not restate its specific rules
+   here; always defer to Section 7.2's current wording. Interrupting the
    student is a teaching failure.
 7. **English speaking practice** follows the English Speaking Engine —
    see Section 8.
@@ -286,15 +280,10 @@ never finish after only one answer.
 
 ### 7.7 Per-Day Interview Log
 
-**Day 1–4:** Not retroactively recorded.
-
-**Day 5 — 🔄 Pending:** Module 7 (Java technical English) and Module 8
-(Java senior interview) have not been done yet for Day 5. When completed,
-log the technical English vocabulary and the interview Q&A (using the
-framework in 7.3 and the evaluation rubric in 7.5) here under this
-heading.
-
-**Day 6 onward:** To be added as the course progresses.
+The actual per-day history (questions, answers, evaluations) is stored
+only in Section 17 (Java Interview Bank) — see that section for the
+authoritative log. It is not duplicated here to avoid the two copies
+drifting out of sync.
 
 ## 8. English Speaking Engine
 
@@ -350,10 +339,11 @@ Interview training becomes personalized over time based on this history.
 ### 9.4 Daily Learning Report
 
 At the end of every learning day, generate a report covering:
-- English: Grammar Score, Vocabulary Score, Listening Score, Speaking
-  Score, Confidence Score.
-- Java: Technical Depth, Interview Performance, Architecture Thinking,
-  Production Thinking.
+- English: Grammar Score, Vocabulary Score, Fluency Score, Naturalness
+  Score (per the current Section 8.2 rubric).
+- Java: Overall Score, Logical Thinking, Technical Depth, Production
+  Experience, Communication, Interview Performance (per the current
+  Section 7.5 rubric).
 - Today's Biggest Problems.
 - Today's Biggest Improvement.
 - Tomorrow's Focus.
@@ -396,16 +386,15 @@ PASS or FAIL
 
 ## 11. Current Session Memory
 
-- **Current Day:** Day 5
+- **Current Day:** Day 6
 - **Current Module:** Module 1 — Review previous days (⬜ pending — not yet started)
-- **Completed Modules Today:** Module 2 (New vocabulary) ✅, Module 3 (Grammar / sentence pattern) ✅
-- **Partially Completed Modules Today:** Module 4 (New sentences) 🔄 — corrected mistake-sentences logged as a start; more original sentences using Day 5 vocabulary still needed
-- **Pending Modules Today:** Module 1 (Review), Module 5 (Speaking practice), Module 6 (Listening/shadowing), Module 7 (Java technical English), Module 8 (Java senior interview), Module 9 (Daily summary)
-- **Today's Vocabulary:** learn, understand, answer, problem, confident, experience, solution, develop, interview, team (full detail in Section 14)
-- **Today's Grammar:** `can + verb`, `like + V-ing`, `want to + verb` (full detail in Section 15)
-- **Today's Mistakes:** 5 mistakes logged (full detail in Section 16)
-- **Today's Java Topic:** not yet started — Module 7 and Module 8 both pending for Day 5 (see Section 17)
-- **Next Step:** Resume at **Module 1 (Review previous days)** for Day 5, then finish Module 4 (add more original sentences), then continue in order through Modules 5–9.
+- **Completed Modules Today:** none yet (new day)
+- **Pending Modules Today:** all 9 modules
+- **Today's Vocabulary:** none yet — Day 6 has not started
+- **Today's Grammar:** none yet — Day 6 has not started
+- **Today's Mistakes:** none yet — Day 6 has not started
+- **Today's Java Topic:** none yet — Day 6 has not started
+- **Next Step:** Start Day 6 — English: review Day 5 vocabulary, continue speaking conversation, continue listening. Java: new Chinese interview question, continue production troubleshooting, continue interview scoring. (Day 5 is fully complete — see Section 13 for its full record.)
 
 ## 12. Master Progress Tracker
 
@@ -415,10 +404,11 @@ PASS or FAIL
 | Day 2 | ✅ Completed | Details not retroactively recorded. |
 | Day 3 | ✅ Completed | Details not retroactively recorded. |
 | Day 4 | ✅ Completed | Details not retroactively recorded. |
-| Day 5 | 🔄 In Progress | Vocabulary + Grammar + Mistakes logged. Modules 1, 4 (partial), 5, 6, 7, 8, 9 still pending. See Section 13. |
-| Day 6–90 | ⬜ Not started | — |
+| Day 5 | ✅ Completed | All 9 modules complete. Vocabulary 10/10 review, Speaking eval avg ~8.1/10, Java Technical English 5/5, Java Interview 9.2/10. See Section 13. |
+| Day 6 | ⬜ Not started | Next session — see Section 11 (Current Session Memory) for the plan. |
+| Day 7–90 | ⬜ Not started | — |
 
-**Current position: Day 5, in progress.**
+**Current position: Day 5 complete; Day 6 not yet started.**
 
 ## 13. Daily Learning Log
 
@@ -442,36 +432,64 @@ Detailed per-module notes were not recorded retroactively.
 ### Day 4 — ✅ Completed
 Detailed per-module notes were not recorded retroactively.
 
-### Day 5 — 🔄 In Progress
+### Day 5 — ✅ Completed
 
 | # | Module | Status | Notes |
 |---|---|---|---|
-| 1 | Review previous days | ⬜ Pending | Review Day 1–4 vocabulary and mistakes before continuing. |
-| 2 | New vocabulary | ✅ Logged | 10 words — see Section 14 (Vocabulary Bank, Day 5). |
-| 3 | Grammar / sentence pattern | ✅ Logged | `can + verb`, `like + V-ing`, `want to + verb` — see Section 15 (Sentence Pattern Bank, Day 5). |
-| 4 | New sentences | 🔄 Partial | Corrected sentences from today's mistakes are logged in Section 15; more original sentences still needed. |
-| 5 | Speaking practice | ⬜ Pending | Run per the English Speaking Engine (Section 8) once started. |
-| 6 | Listening / shadowing | ⬜ Pending | Not yet done for Day 5. |
-| 7 | Java technical English | ⬜ Pending | Not yet done for Day 5. |
-| 8 | Java senior interview | ⬜ Pending | Not yet done for Day 5. Run per the Java Interview Engine (Section 7), in Chinese (Section 6). |
-| 9 | Daily summary | ⬜ Pending | Cannot be written until modules 1, 4–8 are complete. Will include the Daily Learning Report (Section 9.4). |
+| 1 | Review previous days | ✅ Completed | Reviewed all 10 Day 5 vocabulary words — 10/10 correct. |
+| 2 | New vocabulary | ✅ Completed | 10 words — see Section 14 (Vocabulary Bank, Day 5). |
+| 3 | Grammar / sentence pattern | ✅ Completed | `can + verb`, `like + V-ing`, `want to + verb` — see Section 15. |
+| 4 | New sentences | ✅ Completed | 6 additional student-created sentences — see Section 15. |
+| 5 | Speaking practice | ✅ Completed | Topics: self introduction, career, dream job, learning English, Java experience. Evaluation below. |
+| 6 | Listening / shadowing | ✅ Completed | Translation + shadowing practice done; main listening comprehension accurate. |
+| 7 | Java technical English | ✅ Completed | service, database, cache, request, response — 5/5 correct. |
+| 8 | Java senior interview | ✅ Completed | 1 question, conducted in Chinese per Section 6 — evaluation below. See Section 17. |
+| 9 | Daily summary | ✅ Completed | This entry + the evaluations below serve as the Daily Learning Report (Section 9.4). |
 
 **Day 5 vocabulary (10 words):** learn, understand, answer, problem,
-confident, experience, solution, develop, interview, team. Full detail with
-Chinese meaning, example sentence, and day learned is in Section 14.
+confident, experience, solution, develop, interview, team — all reviewed
+today with 10/10 correct recall. Full detail in Section 14.
 
 **Day 5 grammar patterns:** `can + verb`, `like + V-ing`, `want to + verb`.
 Examples are in Section 15.
 
-**Day 5 mistakes corrected:** 5 mistakes logged, see Section 16.
+**Day 5 mistakes corrected:** 5 mistakes logged; 3 of them (#1, #3, #4)
+were correctly re-applied in today's new sentences — see Section 16.
 
-**Next action for Day 5:** Resume at **Module 1 (Review previous days)**,
-then complete Module 4 (finish new sentences), then Modules 5–9 in order.
+**Day 5 English Speaking Evaluation** (Section 8.2 rubric):
+- Grammar 8.5/10, Vocabulary 8.8/10, Fluency 7.8/10, Naturalness 7.8/10, Interview Readiness 7.5/10.
+- Strengths: sustains simple English continuously; strong vocabulary retention; improved confidence; can answer simple follow-ups.
+- Weaknesses: long sentences become unstable; some direct Chinese-to-English translation; conversation stops too early without continuous discussion; currently stronger with short sentences.
+- Improvement plan: keep using short natural sentences; gradually increase speaking time; expand one topic through continuous conversation; avoid introducing advanced English too early.
 
-Days 6–90 are not yet started; see Section 12 (Master Progress Tracker)
-for full status. As each new day is completed, its entry is appended here
-and the oldest of the 3 kept days is archived (per the retention policy
-above).
+**Day 5 Java Interview** (conducted in Chinese, Section 6/7):
+- Question: "Online system response time increased from 100ms to 3s. How would you troubleshoot?"
+- Evaluation (Section 7.5 rubric): Overall 9.2/10, Logical Thinking 9.0, Technical Depth 8.8, Production Experience 9.3, Communication 8.8, Interview Performance 9.1.
+- Strengths: starts with monitoring; understands scope analysis; considers Redis cache; shows service-recovery awareness; mentions rate limiting and degradation.
+- Weaknesses: root cause verification should be stronger; JVM/GC investigation was not mentioned; priority between mitigation and repair could be clearer; answer structure could be more layered.
+- Improvement plan: practice structured interview answers; strengthen JVM and GC troubleshooting; continue production incident simulation.
+- Full answer transcript was not captured in today's summary — the evaluation above is the authoritative record.
+
+**Day 5 Daily Learning Report** (Module 9, per Section 9.4 template):
+- English scores: Grammar 8.5/10, Vocabulary 8.8/10, Fluency 7.8/10, Naturalness 7.8/10.
+- Java scores: Overall 9.2/10, Logical Thinking 9.0, Technical Depth 8.8, Production Experience 9.3, Communication 8.8, Interview Performance 9.1.
+- Today's biggest problems: long sentences become unstable in spoken English; JVM/GC investigation was missing from the Java interview answer.
+- Today's biggest improvement: 10/10 vocabulary recall and improved confidence; strong production-experience instinct in the Java interview (monitoring-first, Redis, rate limiting/degradation).
+- Tomorrow's focus: see Next Session (Day 6) plan below.
+- Learning suggestions: keep using short natural sentences and expand one topic through continuous conversation before adding complexity; strengthen JVM/GC troubleshooting and practice more layered, structured interview answers.
+
+**Day 5 Homework:**
+- English: review today's vocabulary; continue speaking using short natural sentences; practice continuous conversation.
+- Java: review today's production-troubleshooting interview and the monitoring-first methodology; continue practicing structured interview answers.
+
+**Next session (Day 6) plan:**
+- English: review Day 5 vocabulary; continue speaking conversation; continue listening.
+- Java: new Chinese interview question; continue production troubleshooting; continue interview scoring.
+
+Day 6 has not started yet; see Section 12 (Master Progress Tracker) for
+full status. Once Day 6 has logged content, its entry will be appended
+here and the oldest of the 3 kept days will be archived (per the
+retention policy above).
 
 ## 14. Vocabulary Bank
 
@@ -484,20 +502,21 @@ previous days).
 
 | Word | Chinese Meaning | Example Sentence | Day Learned | Review Status |
 |---|---|---|---|---|
-| learn | 学习 | "I learn ten new English words every day." | Day 5 | 🆕 New — not yet reviewed |
-| understand | 理解，明白 | "Now I understand this grammar rule." | Day 5 | 🆕 New — not yet reviewed |
-| answer | 回答，答案 | "Please give a clear answer to the question." | Day 5 | 🆕 New — not yet reviewed |
-| problem | 问题 | "This bug is a difficult problem." | Day 5 | 🆕 New — not yet reviewed |
-| confident | 自信的 | "I feel more confident speaking English now." | Day 5 | 🆕 New — not yet reviewed |
-| experience | 经验 | "I have five years of Java experience." | Day 5 | 🆕 New — not yet reviewed |
-| solution | 解决方案 | "We found a solution to the bug." | Day 5 | 🆕 New — not yet reviewed |
-| develop | 开发 | "I develop backend services in Java." | Day 5 | 🆕 New — not yet reviewed |
-| interview | 面试 | "My Java interview is next week." | Day 5 | 🆕 New — not yet reviewed |
-| team | 团队 | "I work with a great team." | Day 5 | 🆕 New — not yet reviewed |
+| learn | 学习 | "I learn ten new English words every day." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| understand | 理解，明白 | "Now I understand this grammar rule." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| answer | 回答，答案 | "Please give a clear answer to the question." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| problem | 问题 | "This bug is a difficult problem." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| confident | 自信的 | "I feel more confident speaking English now." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| experience | 经验 | "I have five years of Java experience." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| solution | 解决方案 | "We found a solution to the bug." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| develop | 开发 | "I develop backend services in Java." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| interview | 面试 | "My Java interview is next week." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
+| team | 团队 | "I work with a great team." | Day 5 | ✅ Reviewed Day 5 — correct, mastered |
 
-**Status:** ✅ Logged as part of Day 5 Module 2 (New vocabulary). Review
-(Module 1, next occurrence) and speaking/shadowing practice (Modules 5–6)
-for these words are still pending.
+**Status:** ✅ Logged as part of Day 5 Module 2 (New vocabulary). Reviewed
+in full during Day 5 Module 1 — 10/10 correct. Per the Adaptive Review
+Engine (Section 9.1), review frequency for this set is now lowered since
+it is mastered.
 
 ### Day 6 onward
 To be added as the course progresses.
@@ -525,9 +544,18 @@ detail in Section 16):
 - "I have five years of Java experience."
 - "My dream is to speak English fluently."
 
-**Status:** ✅ Grammar patterns logged (Module 3). 🔄 New original sentences
-(Module 4) partially done — corrected mistake-sentences above count as a
-start; more original sentences using Day 5 vocabulary are still needed.
+**Day 5 additional sentences (Module 4, completed):**
+
+- "I want to develop my Java skills."
+- "Our team found a good solution."
+- "I am confident about my interview."
+- "I learn English every day because I want a better job and a better future."
+- "I like working with my team."
+- "I have eight years of Java experience."
+
+**Status:** ✅ Grammar patterns logged (Module 3). ✅ Module 4 (New
+sentences) completed — 6 additional student-created sentences produced
+today, reusing Day 5 vocabulary and grammar patterns correctly.
 
 ### Day 6 onward
 To be added as the course progresses.
@@ -541,17 +569,18 @@ Not retroactively recorded — tracking in this project starts at Day 5.
 
 | # | ❌ Wrong Sentence | ✅ Correct Sentence | Explanation | Review Count | Status |
 |---|---|---|---|---|---|
-| 1 | "want improve" | "want **to** improve" | `want` must be followed by `to + verb`. | 0 | 🆕 Active — needs review |
+| 1 | "want improve" | "want **to** improve" | `want` must be followed by `to + verb`. | 1 | 🔄 In review — correctly re-applied Day 5 ("I want to develop my Java skills.") |
 | 2 | "listen English" | "listen **to** English" | `listen` needs the preposition `to` before its object. | 0 | 🆕 Active — needs review |
-| 3 | "an solution" | "**a** solution" | Use `a`, not `an`, before a consonant sound (`solution` starts with a consonant sound). | 0 | 🆕 Active — needs review |
-| 4 | "years Java experience" | "years **of** Java experience" | Need `of` to link the quantity to the noun phrase. | 0 | 🆕 Active — needs review |
+| 3 | "an solution" | "**a** solution" | Use `a`, not `an`, before a consonant sound (`solution` starts with a consonant sound). | 1 | 🔄 In review — correctly re-applied Day 5 ("Our team found a good solution.") |
+| 4 | "years Java experience" | "years **of** Java experience" | Need `of` to link the quantity to the noun phrase. | 1 | 🔄 In review — correctly re-applied Day 5 ("I have eight years of Java experience.") |
 | 5 | "My dream is speak English" | "My dream is **to** speak English" | `is` + infinitive requires `to`: "My dream is to + verb." | 0 | 🆕 Active — needs review |
 
 **Status:** ✅ Logged as part of Day 5. These corrected sentences are also
 included in Section 15 (Sentence Pattern Bank) as extra practice material.
-Review Count increments each time a mistake is re-tested during a future
-Module 1 (Review previous days) and answered correctly; Status moves to
-✅ Resolved once consistently correct across 3+ reviews.
+Review Count increments each time a mistake is re-tested and answered
+correctly (today, during Day 5 Modules 1/4); Status moves to ✅ Resolved
+once consistently correct across 3+ reviews. Mistakes #2 and #5 were not
+re-tested today — no evidence recorded, so they remain unchanged.
 
 ### Day 6 onward
 To be added as the course progresses.
@@ -565,43 +594,50 @@ only stores what was actually asked/answered/scored per day.
 ### Day 1–4
 Not retroactively recorded.
 
-### Day 5 — 🔄 Pending
-Module 7 (Java technical English) and Module 8 (Java senior interview)
-have not been done yet for Day 5 (see Section 13). When completed, log the
-technical English vocabulary and the interview Q&A + evaluation (Sections
-7.3/7.5) here under this heading.
+### Day 5 — ✅ Completed
+
+**Java technical English vocabulary (Module 7):** service, database, cache,
+request, response — 5/5 correct.
+
+**Java interview (Module 8, conducted in Chinese per Section 6):**
+- Question: "Online system response time increased from 100ms to 3s. How would you troubleshoot?"
+- Student Answer Summary: began with monitoring, analyzed scope, considered Redis caching, showed service-recovery awareness, and mentioned rate limiting/degradation as mitigations. (The full step-by-step transcript was not captured in today's summary; this summary is derived only from the stated strengths/weaknesses below — nothing invented.)
+- Evaluation (Section 7.5 rubric): Overall 9.2/10, Logical Thinking 9.0, Technical Depth 8.8, Production Experience 9.3, Communication 8.8, Interview Performance 9.1.
+- Strengths: starts with monitoring; understands scope analysis; considers Redis cache; shows service-recovery awareness; mentions rate limiting and degradation.
+- Weaknesses: root cause verification should be stronger; JVM/GC investigation was not mentioned; priority between mitigation and repair could be clearer; answer structure could be more layered.
+- Improvement plan: practice structured interview answers; strengthen JVM and GC troubleshooting; continue production incident simulation.
+- Homework: review today's production-troubleshooting interview and the monitoring-first methodology; continue practicing structured interview answers.
+- See also Section 19 (Interview Memory) for the long-term tracking entry.
 
 ### Day 6 onward
 To be added as the course progresses.
 
 ## 18. Weakness Database
 
-Long-term weakness tracking (Section 9.2). All rows below are seeded and
-unassessed — no Speaking practice or Java interview module has been
-completed yet (Day 5 Modules 5 and 8 are still pending), so there is no
-performance data to record yet. Update Status/Review Frequency/Last
-Reviewed as real assessments happen.
+Long-term weakness tracking (Section 9.2). Rows below reflect real
+assessments as they happen; anything not yet tested stays "Not yet
+assessed" — no data is invented. History is never deleted, only updated.
 
 ### English
 
 | Area | Status | Review Frequency | Last Reviewed |
 |---|---|---|---|
-| Grammar | ⬜ Not yet assessed | Not yet set | — |
-| Vocabulary | ⬜ Not yet assessed | Not yet set | — |
+| Grammar | 🟡 Developing (8.5/10) | Maintain — monitor long-sentence structure | Day 5 |
+| Vocabulary | 🟢 Strong (8.8/10; 10/10 recall) | Decrease — Day 5 set mastered | Day 5 |
 | Pronunciation | ⬜ Not yet assessed | Not yet set | — |
-| Fluency | ⬜ Not yet assessed | Not yet set | — |
-| Confidence | ⬜ Not yet assessed | Not yet set | — |
-| Listening | ⬜ Not yet assessed | Not yet set | — |
-| Speaking | ⬜ Not yet assessed | Not yet set | — |
+| Fluency | 🟡 Developing (7.8/10) — long sentences become unstable | Increase | Day 5 |
+| Confidence | 🟢 Improving (noted strength) | Decrease | Day 5 |
+| Listening | 🟢 Accurate (qualitative — main comprehension accurate) | Maintain | Day 5 |
+| Speaking | 🟡 Developing (Interview Readiness 7.5/10) — conversation stops too early | Increase | Day 5 |
 
 ### Java
 
 | Area | Status | Review Frequency | Last Reviewed |
 |---|---|---|---|
-| JVM | ⬜ Not yet assessed | Not yet set | — |
-| GC | ⬜ Not yet assessed | Not yet set | — |
+| JVM | 🔴 Weak — not mentioned in Day 5 interview | Increase | Day 5 |
+| GC | 🔴 Weak — not mentioned in Day 5 interview | Increase | Day 5 |
 | Spring | ⬜ Not yet assessed | Not yet set | — |
-| Redis | ⬜ Not yet assessed | Not yet set | — |
+| Redis | 🟢 Positive signal — mentioned Redis cache appropriately (Day 5) | Maintain | Day 5 |
 | MySQL | ⬜ Not yet assessed | Not yet set | — |
 | Concurrency | ⬜ Not yet assessed | Not yet set | — |
 | Architecture | ⬜ Not yet assessed | Not yet set | — |
@@ -616,11 +652,11 @@ answered are prioritized.
 
 | Topic | Times Asked | Best Score | Status | Next Review Priority |
 |---|---|---|---|---|
-| _(none yet)_ | 0 | — | ⬜ No Java interview conducted yet | — |
+| Production response-time troubleshooting (100ms → 3s) | 1 | 9.2/10 (Day 5) | 🟢 Strong first attempt — gaps in JVM/GC and answer structure | Medium — revisit with focus on JVM/GC investigation and layered answer structure |
 
-No Java interview topics have been logged yet — Module 8 has not started
-for any recorded day. This table will populate once Java interview
-sessions begin (starting with Day 5, Module 8).
+This table began populating on Day 5, Module 8. Topics answered well will
+be asked less often; topics answered poorly more often; topics never
+answered are prioritized (Section 9.3).
 
 ## 20. Recovery Prompt
 
@@ -631,99 +667,36 @@ this single file, `ENGLISH_JAVA_90DAYS_SOT.md` — no other file is needed.
 
 ```
 You are my coach for a 90-day "English + Java Interview" training program.
-Act as a Professional English Teacher and a Senior Java Interviewer.
-Follow these rules exactly, with no exceptions:
+I am pasting/uploading ENGLISH_JAVA_90DAYS_SOT.md together with this
+message — it is the single source of truth. Read the ENTIRE file first,
+before responding to anything else or asking me anything.
 
-RULE 1 — Read first, resume correctly:
-Read the entire attached ENGLISH_JAVA_90DAYS_SOT.md file before responding.
-Resume from its Current Session Memory section. Never restart the course
-or redo a module already marked complete. Never reset the current day.
+This prompt intentionally does NOT restate the rules — the file is always
+attached, so it is the only authoritative copy. Follow it as follows:
 
-RULE 2 — Daily structure, Java interview policy, difficulty:
-Follow the 9 fixed daily modules in order: Review previous days, New
-vocabulary, Grammar/sentence pattern, New sentences, Speaking practice,
-Listening/shadowing, Java technical English, Java senior interview, Daily
-summary. During the first 90 days, Java interview is 100% Chinese; English
-is only used in the English learning modules. Do NOT conduct Java
-interviews in English. English-language Java interview practice only
-begins once I reach approximately B1/B2 English, not on a fixed day.
-Difficulty otherwise ramps: Day 1-30 simple English/basic interview, Day
-31-60 intermediate, Day 61-90 advanced English/senior interview.
+1. Follow Section 4 (Core Rules) exactly, with no exceptions. Re-read
+   Section 4 itself whenever you're unsure of a rule — do not rely on
+   memory or paraphrase it.
+2. Follow Sections 5-9 exactly as written there (Teaching Philosophy &
+   Standards, Course Structure & Difficulty Progression, Java Interview
+   Engine — including Silent Mode, English Speaking Engine, Adaptive
+   Learning System). These sections are the complete teaching engine and
+   are not duplicated in this prompt.
+3. Resume teaching from Section 11 (Current Session Memory). Never
+   restart a module already marked complete, and never reset the current
+   day.
+4. Before ending this chat, update every section listed in Section 10
+   (Memory Rules) with everything learned in this session — never
+   fabricate learning that didn't happen — then run the Consistency Check
+   and output exactly:
+   SOT Consistency Check
+   PASS or FAIL
+5. Never create any new learning-record md file. ENGLISH_JAVA_90DAYS_SOT.md
+   is the only one, ever (Core Rule 9).
 
-RULE 3 — Pronunciation adapts to platform automatically:
-Every English word, sentence, question, and answer requires spoken
-pronunciation practice. If you have a native pronunciation/voice widget
-(e.g. ChatGPT), use it automatically. If you don't (e.g. Claude, Cursor),
-present plain text and have me read it aloud. Never require a special tag.
-
-RULE 4 — Teaching style:
-Act as a Professional English Teacher and a Senior Java Interviewer. The
-goal is continuous improvement, not making me feel good. Constructive
-feedback has higher priority than encouragement. Always explain: why it
-is correct, why it is wrong, how to improve. Do not over-praise, and never
-repeatedly say "Good/Perfect/Excellent/Very good" with no substance.
-
-RULE 5 — Java Interview Engine (highest-priority rule inside it: Silent Mode):
-Act as a real interviewer: only ask questions, never hint, never complete
-my answer, never teach mid-answer. The moment I start answering, enter
-SILENT MODE immediately: never interrupt, summarize, encourage, guess I've
-finished, or continue the interview in any way — no matter how long I
-pause (5, 10, 30 seconds or longer) — until I explicitly say "我说完了" /
-"回答结束" / "I'm finished" or equivalent. Interrupting my answer is a
-teaching failure. Every answer must follow the 8-step framework (Analysis,
-Eliminate, Suspect, Mitigation, Root Cause, Optimization, Prevention,
-Lessons Learned — A-E-S-M-R-O-P-L) and then always be scored: Overall
-Score/10 (above 9.5 is rare), Logical Thinking, Technical Depth,
-Production Experience, Communication, Interview Performance, Strengths,
-Weaknesses, Missing Knowledge, How to Improve, Homework — focus more on
-weaknesses than praise. Never repeatedly say "Good/Excellent/Perfect/Very
-good"; every score deduction needs a reason and every weakness needs a
-concrete improvement suggestion. Each question should run 20-40 minutes
-with follow-ups, deep discussion, counter-examples, alternatives — never
-finish after one answer.
-
-RULE 6 — English Speaking Engine:
-Act as a real ESL teacher. Ask questions in Chinese; I answer in English.
-Keep asking natural follow-ups — never stop after one question; one topic
-runs 5-15 minutes as real conversation, not one-question-one-answer
-practice. After every answer, always output: Grammar Score, Vocabulary
-Score, Fluency Score, Naturalness Score, Mistakes, Better Version, Native
-Expression, One Follow-up Question. Continuously improve my English
-instead of only praising.
-
-RULE 7 — Adaptive learning:
-Adjust review frequency by performance, not a fixed schedule: mastered
-knowledge reviewed less, weak knowledge reviewed more, forgotten knowledge
-repeated immediately. Track weaknesses (English: grammar, vocabulary,
-pronunciation, fluency, confidence, listening, speaking; Java: JVM, GC,
-Spring, Redis, MySQL, concurrency, architecture, system design) and
-interview-topic performance, and prioritize weak/never-answered areas in
-future sessions.
-
-RULE 8 — Daily report:
-At the end of each learning day, generate a report: English scores
-(grammar, vocabulary, listening, speaking, confidence), Java scores
-(technical depth, interview performance, architecture thinking, production
-thinking), today's biggest problems, today's biggest improvement,
-tomorrow's focus, homework, learning suggestions.
-
-RULE 9 — Single file, no new files:
-ENGLISH_JAVA_90DAYS_SOT.md is the only learning-record file for this
-project. Never create any new learning-record md files.
-
-RULE 10 — Update and check before ending the session:
-Before ending any chat, first give me the exact updated text for every
-affected section of ENGLISH_JAVA_90DAYS_SOT.md (Current Session Memory,
-Master Progress Tracker, Daily Learning Log, Vocabulary Bank, Sentence
-Pattern Bank, Mistake Bank, Java Interview Bank, Weakness Database,
-Interview Memory) so I can paste it back into my local file, since you
-cannot edit my local file directly. Then run a Consistency Check and
-output:
-SOT Consistency Check
-PASS or FAIL
-
-Confirm you understand these 10 rules, then ask me to paste/upload
-ENGLISH_JAVA_90DAYS_SOT.md before we continue.
+Confirm you have read the entire file and understood these 5
+instructions, tell me which day/module Section 11 says to resume at, and
+continue from there.
 ```
 
 **Status:** Reusable — not tied to a specific day. Always pair this prompt
