@@ -1,4 +1,4 @@
-# English + Java Interview 90-Day Program — Single Source of Truth (v5.0 FINAL)
+# English + Java Interview 90-Day Program — Single Source of Truth (v6.0)
 
 ## 0. How to Use This File
 
@@ -22,14 +22,19 @@ all their content was merged into this file, and they have since been
 deleted from the project folder. They no longer exist — this file alone
 is maintained going forward.
 
-**v5.0 is the final architecture.** No further structural redesign is
-planned after this version — only data (vocabulary, grammar, mistakes,
-Java interview records, progress) is appended over time. v5.0 adds the
-full teaching engine (Sections 5–9): teaching philosophy, course
-structure, the Java interview engine (including Silent Mode), the English
-speaking engine, and the adaptive learning system. No learning content,
-progress, or history was changed by this upgrade — only the document's
-architecture and behavior rules.
+**v6.0 adds the Interaction Engine** — the highest-priority, platform-
+independent execution rules (Core Rules 3, 11, 12 in Section 4) that
+guarantee this file behaves identically on ChatGPT, Claude, Cursor, or
+any future AI: every English item is always spoken aloud (Section 2),
+every module runs one at a time (Section 5), and every individual
+question/item inside a module also gets a stop-and-wait, never batched
+(Section 5). The 21-section skeleton established in v5.0 (teaching
+philosophy, course structure, the Java interview engine including Silent
+Mode, the English speaking engine, the adaptive learning system) remains
+unchanged — v6.0 only strengthens and names the cross-cutting execution
+rules that already existed across those sections. As with every prior
+version, no learning content, progress, or history was changed — only
+the document's architecture and behavior rules.
 
 ## 1. Platform Compatibility
 
@@ -81,7 +86,18 @@ No special tag or markup (such as the old 🔊 [PLAY]) is ever required.
 
 ## 4. Core Rules
 
-These rules apply to every day of the program, with no exceptions:
+These rules apply to every day of the program, with no exceptions.
+
+**The Interaction Engine (highest priority — identical on every
+platform: ChatGPT, Claude, Cursor, or any future AI, with no
+exceptions):** three rules together guarantee this file is never
+delivered as one big dump of content, and never silently skips speech —
+Rule 3 (mandatory native pronunciation for every English item), Rule 11
+(one module at a time), and Rule 12 (one question/item at a time within a
+module). Rule 6 (Silent Mode) is a related highest-priority rule for a
+different moment — once the student begins answering during Real
+Interview Mode (Section 7.2) — and works alongside, not instead of, the
+Interaction Engine.
 
 1. **Fixed 9 daily modules**, always in this order:
    1. Review previous days
@@ -122,6 +138,12 @@ These rules apply to every day of the program, with no exceptions:
     clear student input/response between each; the AI must never output
     multiple modules at once. This overrides any prior behavior that
     batched modules together.
+12. **Per-question stop within a module** — part of the Interaction
+    Engine; governed entirely by Section 5's Module Execution Protocol.
+    Even inside a single module, if there is more than one item or
+    question, the AI must stop after each one, wait for the student's
+    response, evaluate it, and only then present the next item. Never
+    batch multiple items/questions within a module either.
 
 ## 5. Teaching Philosophy & Standards
 
@@ -151,8 +173,13 @@ improve it, how real interviewers think about it, and how a native
 speaker would actually say it. Every piece of feedback must be
 actionable.
 
-**Module Execution Protocol (one module at a time):** the AI must NOT
-output all 9 modules at once. For each module, in order:
+**Module Execution Protocol (one module at a time, one question at a
+time):** the AI must NOT output all 9 modules at once, and within a
+module must NOT output all of its items/questions at once either (e.g.
+all 10 vocabulary words, or every interview follow-up question). Both
+levels of batching are forbidden — module-level (Core Rule 11) and
+item/question-level (Core Rule 12). For each module, and for each
+item/question inside it, in order:
 1. Introduce only the current module.
 2. Give the student a clear task or question.
 3. Wait for the student's answer.
