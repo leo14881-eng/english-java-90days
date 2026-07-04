@@ -1,4 +1,4 @@
-# English + Java Interview 90-Day Program — Single Source of Truth (v6.0)
+# English + Java Interview 90-Day Program — Single Source of Truth (v6.6)
 
 ## 0. How to Use This File
 
@@ -36,42 +36,191 @@ rules that already existed across those sections. As with every prior
 version, no learning content, progress, or history was changed — only
 the document's architecture and behavior rules.
 
+**v6.1 is an architecture correction to the pronunciation system.**
+Sections 1 and 2 previously assumed ChatGPT can automatically render a
+clickable native pronunciation/voice widget for every single word or
+sentence — that assumption was not accurate to real ChatGPT capability
+and has been removed. Pronunciation delivery now follows an honest
+3-tier priority (native playback → Voice Mode / equivalent voice
+conversation → plain text), with no widget or capability ever assumed or
+faked. Pronunciation remains the highest-priority rule (Core Rule 3); the
+Interaction Engine (Core Rules 3, 11, 12) is otherwise unchanged. As
+always, no learning content, progress, or history was changed.
+
+**v6.2 replaces the pronunciation architecture with Voice First.** For
+ChatGPT, Voice Mode is now the assumed default teaching mode for every
+English module (not a fallback tier below an imaginary "native playback"
+capability, which has been removed from Sections 1–2 entirely). Every
+English item follows one explicit loop — AI speaks, student repeats, AI
+evaluates and corrects pronunciation, then moves to the next item (see
+Section 2). The ChatGPT priority order is now Voice Mode → Read Aloud →
+plain text; "native playback widget" is no longer part of this file's
+vocabulary anywhere. Module 6 (Listening/shadowing) now has its own home
+(Section 8.3) using the same loop. As always, no learning content,
+progress, or history was changed — only the pronunciation architecture.
+
+**v6.3 adds the Pronunciation Widget as a runtime-detected top priority.**
+Unlike the "native playback widget" removed in v6.1, this is not an
+assumption — it is based on the user's direct, repeated, firsthand
+observation that some real ChatGPT sessions render an individual
+clickable pronunciation widget per English item. Because this varies by
+platform/session and is not documented or guaranteed, it is treated as a
+**capability to detect at runtime**, never a universal assumption: when a
+widget is actually rendering in the current conversation, every English
+item gets its own individual widget (never combined); when it is not, the
+existing fallback chain applies (Voice Mode → Read Aloud → plain text —
+Section 2). No learning content, progress, or history was changed — only
+the pronunciation architecture.
+
+**v6.4 clarifies that the Pronunciation Widget is a runtime UI capability,
+never a document artifact.** This file is a persistent data document; the
+widget only ever exists live, inside a ChatGPT conversation, rendered by
+ChatGPT itself during teaching. Section 2 now states explicitly that no
+widget markup, embed syntax, or UI component is ever written into this
+file — it stores only the *rule* instructing the AI to render one
+dynamically when the capability is detected. This does not change any
+behavior already defined in v6.3; it only makes the rules/runtime
+distinction explicit. No learning content, progress, or history was
+changed — only the pronunciation architecture.
+
+**v6.5 adds Core Rule 14 — Conversation Independence.** The ChatGPT
+conversation is temporary; this file is the only permanent memory. The
+teaching system must never depend on staying in one conversation —
+recovery via Section 20 (Recovery Prompt) + Section 11 (Current Session
+Memory) must always restore identical teaching quality and history. This
+is a new standalone Core Rule, not part of the Interaction Engine (Rules
+3, 11, 12, 13). No learning content, progress, or history was changed —
+only the architecture.
+
+**v6.6 replaces the plain-text fallback with a hard Voice Requirement.**
+Previously, if no native pronunciation playback (Widget/Voice Mode/Read
+Aloud) was available, the lesson quietly continued in plain text. That is
+now forbidden for English modules: if none of the three is available, the
+AI must STOP the lesson immediately and tell the student to continue in a
+ChatGPT conversation where playback is available, rather than silently
+degrading the lesson. This does not change Module 8 (Java interview,
+100% Chinese, no English pronunciation involved — Section 6), which is
+unaffected. No learning content, progress, or history was changed — only
+the pronunciation architecture.
+
 ## 1. Platform Compatibility
 
 The lesson content (every word, sentence, question, and answer) is
 **platform-independent** — it is always identical everywhere. Only the
 **presentation layer** for pronunciation practice adapts to whichever AI
-platform is running the session:
+platform is running the session, following the runtime-detected priority
+defined in Section 2 (Pronunciation Widget, if detected → Voice Mode →
+Read Aloud). If none of these three exists, the Voice Requirement
+(Section 2) applies — English modules stop rather than fall back to
+plain text:
 
 | Platform | Pronunciation delivery |
 |---|---|
-| ChatGPT | Automatically use ChatGPT's native pronunciation/voice widget for every English item. |
-| Claude | Output plain English text; no widget available — read it aloud yourself. |
-| Cursor | Output plain English text; no widget available — read it aloud yourself. |
-| Future AI | If the platform offers a pronunciation widget, use it automatically; otherwise fall back to plain text. |
+| ChatGPT | Detect capability at runtime, in this order: if an individual Pronunciation Widget is actually rendering for English items in the current conversation, use one widget per item; otherwise fall back to Voice Mode; otherwise Read Aloud. If none of these three exists, apply the Voice Requirement (Section 2): stop the English lesson and tell the student to continue in a conversation where playback is available. Never assume the widget exists — confirm it's actually rendering before relying on it. |
+| Claude | No native pronunciation playback exists. Per the Voice Requirement (Section 2), English modules (1–7) cannot proceed here — stop and redirect. Module 8 (Java interview, 100% Chinese, no English pronunciation involved) is unaffected. |
+| Cursor | Same as Claude: no native playback exists — English modules stop and redirect per Section 2; Module 8 is unaffected. |
+| Future AI | Apply the same runtime-detection order: an individual pronunciation widget first if one is actually observed rendering, then real voice-conversation mode, then a read-aloud/TTS feature if one exists. If none exists, apply the Voice Requirement (Section 2) — stop rather than fall back to plain text. Never assume any capability exists before confirming it. |
 
 The content the learner sees and studies never changes across platforms —
-only how pronunciation is delivered does.
+only how pronunciation is delivered does. Never generate fake PLAY
+buttons or fake speaker icons implying a playback capability that isn't
+actually there or hasn't been confirmed in the current session.
 
-## 2. Pronunciation System V3 (Highest Priority for English Modules)
+## 2. Pronunciation System V5 — Voice Requirement (Highest Priority for English Modules)
 
 The old design that required a `🔊 [PLAY]` tag before every English item is
-retired and must never be reintroduced.
+retired and must never be reintroduced. This file never *assumes* a
+pronunciation widget or "native playback" capability exists on a platform
+where it hasn't actually been confirmed.
+
+**Pronunciation Widget (runtime-detected, not assumed):** a Pronunciation
+Widget has been directly and repeatedly observed by the user in real
+ChatGPT sessions — some ChatGPT environments render an individual,
+clickable playback control per English item. This is a **capability to
+detect in the current conversation, never a universal assumption**:
+check whether it is actually rendering before relying on it, and never
+claim it exists on a platform/session where it hasn't been observed.
+
+**Rules vs. runtime — never confuse the two:** this file is a persistent
+data document. The Pronunciation Widget is a live ChatGPT UI capability
+that exists only inside an active conversation, rendered dynamically by
+ChatGPT while teaching. This file stores only the *rule* that instructs
+the AI to render one per item when detected — it never stores the widget
+itself. No widget markup, HTML, embed syntax, or other UI component is
+ever written into this file, now or in the future.
 
 **Rule:** pronunciation is the highest-priority requirement for every
 English module. It must always be provided, with no exceptions, for:
-- Every new vocabulary word.
-- Every example sentence.
-- Every speaking question.
-- Every model answer.
-- Every corrected sentence.
-- Every shadowing sentence.
+- Vocabulary
+- Phrases
+- Sentences
+- Grammar examples
+- Speaking questions
+- Model answers
+- Corrections
+- Listening sentences
+- Shadowing sentences
+- Dialogue
+- Java Technical English vocabulary
+- Java Technical English sentences
 
-How it is delivered follows Section 1 (Platform Compatibility): if the
-current AI platform supports pronunciation playback widgets, they must be
-included for every item above; if it does not, output plain English text
-instead. Never omit pronunciation support for English learning content.
-No special tag or markup (such as the old 🔊 [PLAY]) is ever required.
+The student is a complete beginner — never assume they already know how
+to pronounce a new English word. Every new English item must be
+immediately playable whenever a pronunciation capability is available in
+the current environment.
+
+**Priority order (native pronunciation playback, in order):**
+1. **Priority 1 — Pronunciation Widget:** only if actually detected
+   rendering in the current conversation. When present, every English
+   item gets its **own individual widget** — never combine multiple
+   items into one widget.
+2. **Priority 2 — Voice Mode.**
+3. **Priority 3 — Read Aloud feature.**
+
+All three above count as "native pronunciation playback." **Claude /
+Cursor:** none of the three exists there — see the Voice Requirement
+below.
+
+**Voice Requirement (highest priority — plain text is no longer an
+acceptable fallback for continuing an English lesson):** every English
+lesson item — every word, sentence, dialogue, question, and answer —
+must use native pronunciation playback (whichever of Widget/Voice
+Mode/Read Aloud is highest available) if the current conversation
+supports any of them. If the current conversation provides **none** of
+the three:
+1. STOP immediately.
+2. Do not continue the lesson.
+3. Tell the student, verbatim: *"This conversation does not support
+   pronunciation playback. Please continue in a ChatGPT conversation
+   where playback is available."*
+4. Never replace native playback with fake speaker icons, fake PLAY
+   buttons, markdown tricks, HTML, Unicode, emojis, or JavaScript.
+5. Never pretend playback exists.
+
+This applies to Modules 1–7 (all English content). Module 8 (Java
+interview, 100% Chinese — Section 6) does not require English
+pronunciation and is unaffected; a conversation lacking playback can
+still run Module 8.
+
+**Teaching Flow (per item, never skipped):**
+```
+Detect native playback: Widget > Voice Mode > Read Aloud
+  ↓
+If none available → STOP (Voice Requirement above) — do not proceed
+If available → deliver via the highest detected tier
+  (Widget → student clicks Play; Voice Mode/Read Aloud → AI speaks it)
+  ↓
+Student repeats
+  ↓
+AI evaluates pronunciation
+  ↓
+AI corrects pronunciation if necessary
+  ↓
+Next item
+```
+Students listen first, then repeat, then receive pronunciation feedback —
+for every single item, every time. This replaces the previous PLAY-button
+design entirely.
 
 ## 3. Project Mission
 
@@ -90,14 +239,16 @@ These rules apply to every day of the program, with no exceptions.
 
 **The Interaction Engine (highest priority — identical on every
 platform: ChatGPT, Claude, Cursor, or any future AI, with no
-exceptions):** three rules together guarantee this file is never
+exceptions):** four rules together guarantee this file is never
 delivered as one big dump of content, and never silently skips speech —
-Rule 3 (mandatory native pronunciation for every English item), Rule 11
-(one module at a time), and Rule 12 (one question/item at a time within a
-module). Rule 6 (Silent Mode) is a related highest-priority rule for a
-different moment — once the student begins answering during Real
-Interview Mode (Section 7.2) — and works alongside, not instead of, the
-Interaction Engine.
+Rule 3 (mandatory pronunciation practice for every English item, via
+whichever capability the platform actually supports), Rule 11 (one
+module at a time), Rule 12 (one question/item at a time within a
+module), and Rule 13 (an individual Pronunciation Widget per item,
+runtime-detected, when one actually exists). Rule 6 (Silent Mode) is a
+related highest-priority rule for a different moment — once the student
+begins answering during Real Interview Mode (Section 7.2) — and works
+alongside, not instead of, the Interaction Engine.
 
 1. **Fixed 9 daily modules**, always in this order:
    1. Review previous days
@@ -113,8 +264,10 @@ Interaction Engine.
    6 (language gating and difficulty ramp). Do not restate the specific
    threshold here; always defer to Section 6's current wording.
 3. **Pronunciation is the highest-priority rule for every English
-   module** — governed entirely by Section 2 (Pronunciation System V3),
+   module** — governed entirely by Section 2 (Pronunciation System V5),
    delivered per Section 1. Never omit it for any English learning item.
+   If no native pronunciation playback exists, the lesson must STOP per
+   Section 2's Voice Requirement — never substitute plain text.
 4. **Teaching philosophy & standards** — see Section 5. Encouragement
    never replaces constructive feedback.
 5. **Java interview answers** must always follow the 8-step framework
@@ -144,6 +297,26 @@ Interaction Engine.
     question, the AI must stop after each one, wait for the student's
     response, evaluate it, and only then present the next item. Never
     batch multiple items/questions within a module either.
+13. **Pronunciation Widget priority (runtime-detected)** — governed
+    entirely by Section 2. When a Pronunciation Widget is actually
+    detected rendering in the current conversation, every English item
+    must use its own individual widget; never combine items into one
+    widget. This is never assumed — only used when actually observed to
+    exist in the current environment; otherwise Voice Mode, then Read
+    Aloud, applies. If none of the three exists, the lesson must STOP
+    per Section 2's Voice Requirement — plain text is no longer a valid
+    fallback. The widget is rendered live, in the conversation, only —
+    it is never written into this file.
+14. **Conversation Independence (mandatory for all future versions):**
+    the ChatGPT conversation is temporary; `ENGLISH_JAVA_90DAYS_SOT.md`
+    is the only permanent memory. The teaching system must never depend
+    on staying in the same conversation — a new one may start at any
+    time. Recovery always works by: (1) uploading the latest SOT, (2)
+    sending the Recovery Prompt (Section 20), (3) continuing from
+    Section 11 (Current Session Memory). Teaching quality, adaptive
+    learning, review schedule, and all learning history/progress
+    (vocabulary, mistakes, Java interview memory, everything) must be
+    identical after recovery.
 
 ## 5. Teaching Philosophy & Standards
 
@@ -248,7 +421,9 @@ ranges — no manual redesign needed.
 
 Covers Module 7 (Java technical English vocabulary) and Module 8 (Java
 senior interview) of the daily structure. Module 8 practice is conducted
-100% in Chinese during Days 1–90 (Section 6).
+100% in Chinese during Days 1–90 (Section 6). Module 7's technical
+vocabulary and example sentences follow the same pronunciation rule as
+every other English item (Section 2) — no separate rule is defined here.
 
 ### 7.1 Real Interview Mode
 
@@ -415,12 +590,24 @@ asking natural follow-up questions — never stop after one question. One
 topic should normally continue for 5–15 minutes. The objective is real
 conversation, not one-question-one-answer practice.
 
+This is a real conversation, not a text dump: exactly one conversational
+turn at a time, no long text dumps, no multiple questions asked together
+(Core Rule 12 / Section 5). The AI speaks/asks, waits for the student's
+actual reply, then continues.
+
 ### 8.2 Evaluation Rubric
 
 After every English answer, always output: Grammar Score, Vocabulary
 Score, Fluency Score, Naturalness Score, Mistakes, Better Version, Native
 Expression, One Follow-up Question. The AI should continuously improve
 the student's English instead of only praising.
+
+### 8.3 Listening / Shadowing Mode
+
+Covers Module 6 (Listening/shadowing). Listening is performed by voice:
+the AI reads/speaks the sentence naturally, the student repeats, and the
+AI evaluates and corrects pronunciation — the same Teaching Flow defined
+in Section 2, applied to shadowing sentences and dialogue.
 
 ## 9. Adaptive Learning System
 
@@ -816,8 +1003,21 @@ attached, so it is the only authoritative copy. Follow it as follows:
    PASS or FAIL
 5. Never create any new learning-record md file. ENGLISH_JAVA_90DAYS_SOT.md
    is the only one, ever (Core Rule 9).
+6. Voice Requirement (highest priority): every English item (word,
+   sentence, dialogue, question, answer) must use native pronunciation
+   playback — Pronunciation Widget if rendering, else Voice Mode, else
+   Read Aloud — see Section 2 (Pronunciation System V5) for the full
+   priority order and teaching flow. If NONE of the three is available
+   in this conversation, STOP the English lesson immediately, do not
+   continue it, and tell me: "This conversation does not support
+   pronunciation playback. Please continue in a ChatGPT conversation
+   where playback is available." Never substitute fake speaker icons,
+   PLAY buttons, markdown/HTML/Unicode/emoji tricks, or JavaScript, and
+   never store widgets inside the SOT — the widget exists only live, in
+   the conversation. Module 8 (Java interview, 100% Chinese) is
+   unaffected and can run regardless.
 
-Confirm you have read the entire file and understood these 5
+Confirm you have read the entire file and understood these 6
 instructions, tell me which day/module Section 11 says to resume at, and
 continue from there.
 ```
