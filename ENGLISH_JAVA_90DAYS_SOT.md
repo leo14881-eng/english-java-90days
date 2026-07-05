@@ -1,4 +1,4 @@
-# English + Java Interview 90-Day Program — Single Source of Truth (v8.0)
+# English + Java Interview 90-Day Program — Single Source of Truth (v8.1)
 
 ## 0. How to Use This File
 
@@ -167,6 +167,26 @@ Accuracy 15 / Confidence 10) replaces the scenario-troubleshooting rubric
 for this 90-day focus. Core Rule 17 (Daily Learning Loop) is updated to
 the new module sequence. No learning content, progress, or history was
 changed — only the teaching architecture.
+
+**v8.1 is the V5.1 Final Patch — additive only, does not overturn v8.0.**
+Two new permanent data Banks are added: Section 21 (Response Bank) stores
+the student's own final English responses (never the AI's model answer),
+and Section 22 (Java Answer Bank) stores the student's own best/latest
+Java answers per topic — both append-only, by day/topic, never
+overwritten (new Core Rule 20). They are appended at the end of the file
+(after Recovery Prompt) rather than inserted among Sections 14–19, to
+avoid renumbering any existing section. Four new rules: Core Rule 20
+(Response Bank & Java Answer Bank priority — review/refine stored answers
+before generating new ones), Core Rule 21 (Adaptive Difficulty — a precise
+capability gate: Stage 2→3 requires 3 consecutive days of ARC with
+Accuracy ≥90%, Response Time ≤3s, and Fluency at standard; Java difficulty
+likewise advances by demonstrated performance, never by day count alone),
+Core Rule 22 (Purpose-Driven AI — every follow-up must serve one of five
+named teaching purposes or is forbidden), and Core Rule 23 (Intentional
+Repetition + Knowledge Recycling — today's content must reappear at least
+3 times across the day's modules, and old knowledge must keep resurfacing
+over time). No learning content, progress, or history was changed — only
+the teaching architecture.
 
 ## 1. Platform Compatibility
 
@@ -447,10 +467,11 @@ alongside, not instead of, the Interaction Engine.
     built through four stages, in strict order, never skipped: Mouth
     Builder → Response Builder → Expression Builder → Conversation
     Builder. Progression through Stages 1–3 is gated by demonstrated
-    response ability (Core Rule 19), not a fixed day count; Stage 4
-    (real conversation) may never start before Day 61 (the final 30
-    days) regardless of ability, since conversation without a solid
-    response foundation is not real communicative competence.
+    response ability (the precise gate is Core Rule 21), not a fixed day
+    count; Stage 4 (real conversation) may never start before Day 61
+    (the final 30 days) regardless of ability, since conversation
+    without a solid response foundation is not real communicative
+    competence.
 19. **Thinking Time Reduction & Automatic Response Check (ARC) —
     permanent:** governed entirely by Section 8.4. The English goal is
     not a "correct/standard answer" but reduced thinking time — until a
@@ -458,6 +479,37 @@ alongside, not instead of, the Interaction Engine.
     rapid-fire questions on that day's content, each requiring a
     response within 3 seconds. Failing this check means repeating
     practice the next day — never advancing difficulty instead.
+20. **Response Bank & Java Answer Bank Priority — permanent, append-only
+    (V5.1 patch):** governed entirely by Sections 21–22. Section 21
+    (Response Bank) stores the student's own final English responses;
+    Section 22 (Java Answer Bank) stores the student's own best/latest
+    Java answers per topic. Both are append-only by day/topic — never
+    overwritten or deleted, exactly like the Banks in Sections 14–19.
+    Before generating a new answer, Speaking (Section 8.1) and Java
+    Interview Logic Builder (Section 7.8) must first check whether a
+    stored response/answer already exists for that item and prioritize
+    reviewing/refining it over generating from scratch.
+21. **Adaptive Difficulty — permanent, capability-gated, never by day
+    count alone (V5.1 patch):** English Stage 2→Stage 3 requires 3
+    consecutive days of Automatic Response Check (Section 8.4) results
+    all meeting: Accuracy ≥90%, Response Time ≤3 seconds, and Fluency at
+    standard — otherwise the student remains at the current stage, no
+    matter how many days have passed. Java question difficulty likewise
+    advances only by demonstrated performance (Section 22, Section 19
+    Interview Memory) — never automatically by day count.
+22. **Purpose-Driven AI — permanent (V5.1 patch):** every AI utterance
+    must have an explicit teaching purpose — chatting for its own sake or
+    random topics are forbidden. Every follow-up question must satisfy at
+    least one of: ① reviewing today's vocabulary, ② reviewing today's
+    sentence pattern, ③ reviewing today's grammar, ④ reinforcing Response
+    Builder, ⑤ reinforcing Interview Logic (Section 7.8) — otherwise the
+    question may not be asked.
+23. **Intentional Repetition & Knowledge Recycling — permanent (V5.1
+    patch):** today's content must be reused at least 3 times across the
+    day's modules (Speaking, Listening, Response, Conversation, Summary)
+    to build long-term memory (Daily Learning Loop, Core Rule 17). Old
+    knowledge must keep resurfacing over time via the Adaptive Review
+    Engine (Section 9.1) — never treated as "learned once, done."
 
 ## 5. Teaching Philosophy & Standards
 
@@ -564,12 +616,14 @@ Section 8.4), not a fixed day count — only Stage 4's floor (Day 61) is
 fixed.
 
 **Java: a single continuous focus for all 90 days — Interview Logic
-Builder** (Section 7.8). Daily question difficulty naturally increases
-over the 90 days, but the *method* never changes: always building answer
-logic for interview questions, never shifting into full production-
-incident/system-design/CTO-level training within this window — that
-remains Phase 2, beyond Day 90 (Section 3), using the preserved v7.0
-scenario pool and A-E-S-M-R-O-P-L framework (Sections 7.3–7.4).
+Builder** (Section 7.8). Question difficulty advances only by
+demonstrated performance (Core Rule 21 — Java Answer Bank/Section 22 and
+Interview Memory/Section 19 scores), never automatically by day count.
+The *method* never changes regardless of difficulty: always building
+answer logic for interview questions, never shifting into full
+production-incident/system-design/CTO-level training within this window —
+that remains Phase 2, beyond Day 90 (Section 3), using the preserved
+v7.0 scenario pool and A-E-S-M-R-O-P-L framework (Sections 7.3–7.4).
 
 The final goal (Section 3) is real speaking/response ability plus a
 Java interview answer logic the student can call their own — not
@@ -733,7 +787,10 @@ for that question. Do NOT start a brand-new question directly in Real
 Interview Mode (Section 7.1). Once a question has completed this workflow
 and the student has formed their own answer, every future review of that
 same question uses Real Interview Mode (Section 7.1) directly — this
-workflow is never repeated for it.
+workflow is never repeated for it. For future reviews, the AI first
+checks the Java Answer Bank (Section 22, Core Rule 20) for the student's
+current best answer and compares the new attempt against it, noting what
+improved and what regressed.
 
 **Step 1 — Interview Question.** The AI gives one real Java interview
 question for the day.
@@ -773,6 +830,8 @@ and feedback as Step 6.
 **Step 8 — Student's Third Answer + Scoring (Round 3).** Same again,
 continuing with further rounds if needed, until the student has formed
 **their own answer** — not a memorized recitation of Step 4's reference.
+This final version is saved to the Java Answer Bank (Section 22) as the
+student's current best answer for this question.
 
 **Step 9 — Today's Interview Logic.** Summarize the *answer logic*
 learned today, never the answer itself — what should actually be
@@ -850,9 +909,13 @@ friend, colleague, HR interviewer, teacher, or job interviewer would
 actually ask (e.g. Hi. → How are you? → Where are you from? → What do
 you do? → Why are you learning English? → What is your goal? → What did
 you do today? → What will you do tomorrow? → ...). This is not "how to
-build a sentence" — it is "how to respond." The AI asks one question,
-the student answers, then the AI moves on (see Adaptive Help below if
-the student can't answer).
+build a sentence" — it is "how to respond." Before asking, the AI first
+checks the Response Bank (Section 21, Core Rule 20) for a question
+already answered before — if found, review and refine that stored
+response rather than generating a new one from scratch. The AI asks one
+question, the student answers, then the AI moves on (see Adaptive Help
+below if the student can't answer). The student's final version of each
+answer is saved to the Response Bank (Section 21).
 
 **Step 5 — Expression Builder (Stage 3, only once Response Builder is
 solid).** 2–5 sentence self-expression: introducing self, job, dreams,
@@ -943,6 +1006,12 @@ enough questions, the next day repeats practice at the same stage/level
 enforces Thinking Time Reduction (Core Rule 19): the target is an
 immediate response, not a correct-but-slow one.
 
+**ARC also drives Stage 2→Stage 3 progression (Core Rule 21):**
+advancement requires 3 **consecutive** days of ARC results all meeting
+Accuracy ≥90%, Response Time ≤3 seconds, and Fluency at standard — one
+off day resets the streak. This is the precise, capability-based gate
+referenced by Core Rule 18.
+
 ## 9. Adaptive Learning System
 
 ### 9.1 Adaptive Review Engine
@@ -1016,6 +1085,8 @@ closed:
 7. Java Interview Bank (Section 17)
 8. Weakness Database (Section 18)
 9. Interview Memory (Section 19)
+10. Response Bank (Section 21)
+11. Java Answer Bank (Section 22)
 
 **Retention:** Section 13 (Daily Learning Log) keeps only the 3 most
 recent days — see its own retention policy for the required
@@ -1360,3 +1431,53 @@ continue from there.
 
 **Status:** Reusable — not tied to a specific day. Always pair this prompt
 with the current contents of this file.
+
+## 21. Response Bank
+
+Added in v8.1 (Core Rule 20). Appended here rather than inserted among
+Sections 14–19 to avoid renumbering any existing section — it is still a
+permanent, append-only Bank exactly like those sections, and is included
+in the Section 10 (Memory Rules) update list.
+
+**Purpose:** permanently store the student's own final English responses
+from Response Builder (Section 8.1, Stage 2) — never the AI's model
+answer. Example: for "Why are you learning English?", the Bank stores
+the student's own final version (e.g. "Because I want to improve my
+English and find a better job."), not the AI's suggested answer.
+
+**Rules:**
+- Append-only by day — never overwrite or delete a prior entry.
+- Before Response Builder asks a question, the AI checks here first
+  (Core Rule 20) and reviews/refines the stored response rather than
+  generating a new one from scratch.
+- As the student's answers become more natural over time, newer entries
+  for the same question are appended alongside older ones (not replacing
+  them), so progress over time stays visible.
+
+| Day | Question | Student's Final Response | Notes |
+|---|---|---|---|
+| _(none yet)_ | — | — | No Response Builder sessions have been logged yet — Stage 2 has not started (see Section 11, Current Session Memory). This table populates once Response Builder begins. |
+
+## 22. Java Answer Bank
+
+Added in v8.1 (Core Rule 20). Appended here rather than inserted among
+Sections 14–19 to avoid renumbering any existing section — it is still a
+permanent, append-only Bank exactly like those sections, and is included
+in the Section 10 (Memory Rules) update list.
+
+**Purpose:** permanently store the student's own final Java interview
+answers per topic (e.g. HashMap, Redis, Spring, ThreadPool) from Section
+7.8, Step 8 (the third-round answer) — never the AI's reference answer.
+This becomes the student's current best answer for that topic.
+
+**Rules:**
+- Append-only — never overwrite or delete a prior entry.
+- When a topic is reviewed again later, the AI checks here first (Core
+  Rule 20), compares the new attempt against the stored best answer, and
+  tells the student what improved and what regressed.
+- Newer best-answer versions are appended alongside older ones, not
+  replacing them, so progress over time stays visible.
+
+| Topic | Student's Current Best Answer | Day Recorded | Last Re-tested | AI Notes (progress/regression) |
+|---|---|---|---|---|
+| _(none yet)_ | — | — | — | No Interview Logic Builder sessions have completed Step 8 yet (see Section 17, Java Interview Bank, and Section 19, Interview Memory). This table populates once a question completes the full workflow. |
