@@ -1,4 +1,4 @@
-# English + Java 90-Day Program — Single Source of Truth (V11.8 — FROZEN)
+# English + Java 90-Day Program — Single Source of Truth (V11.9 — FROZEN)
 
 本文件是唯一学习记录文件。不再创建任何其他学习记录文件。
 
@@ -77,6 +77,18 @@ Rule，要求 AI 必须依据用户实际说出的内容评判，若与期望答
 Conversation/Role Switch 与 Java Interview practice。未修改 Session
 Workflow、Review Engine、Mastery Rules、Progress Rules、Topic 结构、Java
 Step1–Step5 数量、Output Format。
+
+**V11.9 是冻结后的执行改进（早期阶段 Review 执行强化）。** 在 V11.6 已建立
+的 ≤5 Topic Hybrid Coverage Rule 基础上进一步明确执行细节：(1) ≤5 Topic
+阶段的 Review 必须覆盖每个 Topic 下的**全部** Question，而不是每个 Topic
+只抽 1 个；(2) 明确该阶段的执行按 Stage 1–4 递进（逐个随机复习全部
+Question → 随机合并 2–4 个 Question → Role Switch → Free
+Conversation），均复用第 4.2 节已有的 Review/Conversation 机制，不改变
+其步骤顺序或引入新机制；(3) 只有以上阶段表现稳定才可引入新 Topic——这
+一点本就由第 3 节与第 4.4 节保证，此处仅交叉引用。>5 Topic 时的
+Priority-Based Review Engine 抽样机制未改动。未修改 Review Engine、
+Mastery Rules、Progress Rules、Session Workflow（5 步顺序不变）、Output
+Format、Topic 结构。
 
 ---
 
@@ -323,11 +335,20 @@ Conversation、Role Switch、Java Interview practice（Java 场景下 AI 必须
 ## 7. Review Rules（复习规则）
 
 - **英语 Review 覆盖范围（Coverage Rule，Hybrid）**：当已学 Topic 总数 **≤ 5**
-  个时，Review 必须覆盖**每一个**已学 Topic（每个 Topic 至少抽 1 个
-  Question），保证学习初期不会遗漏任何 Topic；当已学 Topic 总数 **> 5**
-  个后，回到下方 Priority-Based Review Engine 的抽样机制，不再要求每次
-  全部覆盖。选中 Question 的呈现顺序见第 4.2 节（必须随机，不按 Topic
-  顺序）。
+  个时，Review 必须覆盖每一个已学 Topic **下的全部 Question**（不是每个
+  Topic 只抽 1 个），保证学习初期不会遗漏任何已学内容；当已学 Topic 总数
+  **> 5** 个后，回到下方 Priority-Based Review Engine 的抽样机制，不再要求
+  每次全部覆盖。
+
+  在 ≤ 5 Topic 阶段，本 Coverage Rule 通过以下递进阶段执行（复用第 4.2 节
+  Review / Conversation 已有机制，不改变其步骤顺序）：
+  - **Stage 1**：逐个复习全部已学 Question，随机顺序（不按 Topic 顺序）。
+  - **Stage 2**：随机将 2–4 个已学 Question 合并成一句话一起问。
+  - **Stage 3**：Role Switch——我用已学 Question 向 AI 提问。
+  - **Stage 4**：Free Conversation——只使用已学 Question 的自由对话。
+
+  只有以上阶段表现稳定，AI 才可以引入今天的新 Topic（呼应第 3 节"Review
+  未完成不得直接学习新内容"与第 4.4 节 Topic Completion）。
 - **英语 Review（Priority-Based Review Engine）**：每个 Session 开始时（超过
   5 个 Topic 后），AI 不做全量复习，也不做纯随机抽取，而是结合 **Mastery
   Status** 与 **Learning Recency（学习时间新旧）** 两个维度，智能选出本次的
