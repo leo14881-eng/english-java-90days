@@ -36,7 +36,7 @@ Do not invent your own teaching method.
 
 java 是一个面向对象,跨平台的编程语言,它运行在JVM上,能够实现一次编写，到处运行,有自动垃圾回收，安全稳定的特点。
 广泛应用于企业级开发,常用于金融，银行，电商，大数据领域。我在工作中
-经常使用java进行高并发后台系统和微服务的开发，主要用到 springboot,mysql,redis,mq,kafka,websocket
+经常使用java进行高并发后台系统和微服务的开发，主要用到 springboot,mysql,redis,mq,kafka,websocket 等技术.
 
 2.为什么你使用java
 1.你为什么选择java,而不是其他语言
