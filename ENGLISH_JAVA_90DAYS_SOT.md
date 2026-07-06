@@ -445,6 +445,33 @@ Question: What do you do?
 Standard Answer: I'm a Java programmer.
 Mastery Status: Practicing
 
+Topic: English Learning
+
+1.
+Question: Why are you learning English?
+Standard Answer: I'm learning English because I want to work for an international company.
+Mastery Status: Practicing
+
+2.
+Question: Do you like learning English?
+Standard Answer: （Session 2 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+3.
+Question: How do you learn English?
+Standard Answer: I learn English by speaking with ChatGPT every day.
+Mastery Status: Practicing
+
+4.
+Question: How long do you study English every day?
+Standard Answer: I study English for about six hours every day.
+Mastery Status: Practicing
+
+5.
+Question: What is your English goal?
+Standard Answer: My goal is to speak English fluently.
+Mastery Status: Practicing
+
 ## 12. Java Answer Bank
 
 记录格式：
@@ -467,17 +494,26 @@ It is widely used in enterprise application development such as e-commerce, bank
 In my work I mainly use Java to develop high-concurrency backend systems and microservices.
 The main technologies I use include Spring Boot, Redis, MySQL, Kafka, MQ and WebSocket.
 Mastery Status: Practicing
-Review History: Session 1 — Round1 88/100, Round2 95/100, Round3 98/100 (initial pass, not yet reviewed).
+Review History: Session 1 — Round1 88/100, Round2 95/100, Round3 98/100 (initial pass); Session 2 — reviewed multiple rounds, answer structure now clearly Definition → Platform (JVM) → Core characteristics → Typical enterprise scenarios → Personal project experience, noticeably more fluent than Session 1.
+
+Interview Question: Why do you use Java?
+My Final Answer (current structure, wording still being refined):
+Reason → Technical advantages → Enterprise application → Personal experience.
+Mastery Status: Practicing
+Review History: Session 2 — introduced as this Session's Interview Question, multiple rounds practiced; user moved from reciting toward a logical structure rather than memorized sentences. Wording not yet finalized to a single best-answer text.
 
 ## 13. Current Session
 
-- Session: 1（已完成，等待开始 Session 2）
-- English Topic: Self Introduction（5 组 Q&A 均为 Practicing，尚未 Mastered，Topic 未完成）
+- Session: 2（已完成，等待开始 Session 3）
+- English Topic 1: Self Introduction（5 组 Q&A，Practicing，Topic 未完成）
+- English Topic 2: English Learning（5 组 Q&A，Practicing，Topic 未完成）
 - Java Interview Topic: Java Basics
-- Java Interview Question（已完成）: What is Java?
-- Java Interview Question（下一个）: Why do you use Java?
-- 状态：Session 2 开始时，英语先 Review 本次 5 组 Question，若表现稳定则继续
-  Self Introduction；Java 进入 Java Basics 下一个 Interview Question。
+- Java Interview Question: What is Java? → Practicing（已复习一轮，结构更清晰）
+- Java Interview Question: Why do you use Java? → Practicing（本 Session 新学，逻辑结构已形成，措辞未定稿）
+- 状态：Session 3 开始时，英语先 Review Topic 1 + Topic 2 共 10 组 Question
+  （随机顺序、纯英文、Role Switch、Mixed Conversation），表现稳定后才可
+  引入 Topic 3；Java 继续 "Why do you use Java?"，重点训练面试逻辑、自信、
+  语流保持、避免卡壳，而不是背诵。
 
 ## 14. Learning Log
 
@@ -496,3 +532,30 @@ Review History: Session 1 — Round1 88/100, Round2 95/100, Round3 98/100 (initi
 - 架构：本 Session 中发现并修补了 Voice Mode 打断用户的执行缺陷，详见文档
   开头 V11.4 说明与第 3/6 节 Voice Listening First 规则（Part 1 Bug Fix，
   未改变学习流程结构）。
+
+### Session 2（2026-07-06）
+
+- English：Review 了 Topic "Self Introduction" 全部 5 组 Q&A，多轮随机复习，
+  能不经翻译自然回答，并开始连续回答多个问题；Topic 仍为 Practicing（尚未
+  Mastered，需未来更多随机复习）。新学 Topic "English Learning" 5 组
+  Q&A（Why are you learning English? / Do you like learning English? /
+  How do you learn English? / How long do you study English every day? /
+  What is your English goal?），已存入第 11 节，均为 Practicing。完成
+  AI-asks/Role-Switch/Mixed Conversation/随机顺序/多问题合并/纯英文提问/
+  连续重复练习。语法纠正：like + doing（I like learning English，非 learn）；
+  "started English" → "learn English"；"wanted to work" → "want to work"
+  （描述当前目标用现在时）。新增对疑问词类型（Why/How/How long/What/
+  Which）的理解。
+- Java：Review 了 Interview Topic "Java Basics" 中 "What is Java?"，结构更
+  清晰稳定（Definition → Platform(JVM) → Core characteristics → Typical
+  enterprise scenarios → Personal experience）。新学本 Session 的 Interview
+  Question "Why do you use Java?"，多轮练习后从背诵逐渐转为逻辑结构
+  （Reason → Technical advantages → Enterprise application → Personal
+  experience），尚未定稿最终措辞，标记 Practicing。本 Session 的重要收获是
+  "面试思维"而非技术知识本身——回答应遵循与问题类型匹配的逻辑结构，而不
+  是逐句背诵。
+- 架构：本 Session 中确认/修补了多项已在对话中处理的执行规则（Section 3/6：
+  Voice Listening First 细化、Accurate Feedback Rule、No Assumption
+  Feedback Rule；Section 5：训练目标、问题类型框架表、Review
+  Checklist；Section 7：英语 Review Coverage Rule），对应 V11.4–V11.8，
+  版本历史见文档开头说明，此处不重复列出。
