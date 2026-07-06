@@ -22,3 +22,11 @@ Do not invent your own teaching method.
 发给chatgpt:
 今天学习结束，请生成 Today's Learning Summary。
 
+
+1.什么是java
+1.定义
+2.有什么特性
+3.应用在哪些领域
+4.自己做过什么
+
+
