@@ -4,19 +4,7 @@
 导入:
 Read this ENGLISH_JAVA_90DAYS_SOT.md completely.
 
-This file is the Single Source of Truth (SSOT).
 
-The first part (Sections 1–10) is permanently frozen and must never be modified unless a genuine architecture bug is discovered.
-
-The second part (Sections 11–14) is the only editable area.
-
-Restore my current learning state.
-
-Continue from Session 1.
-
-Follow the SOT strictly.
-
-Do not invent your own teaching method.
 
 
 发给chatgpt:
