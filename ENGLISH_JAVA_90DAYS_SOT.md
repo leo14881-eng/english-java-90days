@@ -297,7 +297,32 @@ Standard Answer:
 Mastery Status: New / Practicing / Mastered
 ```
 
-（暂无数据 — 尚未开始任何 Session）
+Topic: Self Introduction
+
+1.
+Question: Hello!
+Standard Answer: Hello!
+Mastery Status: Practicing
+
+2.
+Question: What's your name?
+Standard Answer: My name is Kevin.
+Mastery Status: Practicing
+
+3.
+Question: Where are you from?
+Standard Answer: I'm from Wuhan, China.
+Mastery Status: Practicing
+
+4.
+Question: Where do you live now?
+Standard Answer: I live in Ho Chi Minh City, Vietnam.
+Mastery Status: Practicing
+
+5.
+Question: What do you do?
+Standard Answer: I'm a Java programmer.
+Mastery Status: Practicing
 
 ## 12. Java Answer Bank
 
@@ -310,16 +335,43 @@ Mastery Status: New / Practicing / Mastered / Needs Review
 Review History:
 ```
 
-（暂无数据 — 尚未开始任何 Session）
+Interview Topic: Java Basics
+
+Interview Question: What is Java?
+My Final Answer:
+Java is an object-oriented, cross-platform programming language.
+It runs on the JVM and can achieve "Write Once, Run Anywhere."
+It features automatic garbage collection, stability and security.
+It is widely used in enterprise application development such as e-commerce, banking, finance and big data.
+In my work I mainly use Java to develop high-concurrency backend systems and microservices.
+The main technologies I use include Spring Boot, Redis, MySQL, Kafka, MQ and WebSocket.
+Mastery Status: Practicing
+Review History: Session 1 — Round1 88/100, Round2 95/100, Round3 98/100 (initial pass, not yet reviewed).
 
 ## 13. Current Session
 
-- Session: 0（尚未开始）
-- English Topic: 无
-- Java Interview Topic: 无
-- Java Interview Question: 无
-- 状态：等待开始 Session 1
+- Session: 1（已完成，等待开始 Session 2）
+- English Topic: Self Introduction（5 组 Q&A 均为 Practicing，尚未 Mastered，Topic 未完成）
+- Java Interview Topic: Java Basics
+- Java Interview Question（已完成）: What is Java?
+- Java Interview Question（下一个）: Why do you use Java?
+- 状态：Session 2 开始时，英语先 Review 本次 5 组 Question，若表现稳定则继续
+  Self Introduction；Java 进入 Java Basics 下一个 Interview Question。
 
 ## 14. Learning Log
 
-（暂无记录 — 尚未开始任何 Session）
+### Session 1（2026-07-06）
+
+- English：Topic "Self Introduction" 首次学习 5 组 Q&A（Hello! / What's your
+  name? / Where are you from? / Where do you live now? / What do you
+  do?）。完成 Practice、Mixed Conversation、Role Switch、Free
+  Conversation，Accuracy 100%，Automatic Response 初步形成。5 组均标记为
+  Practicing（首次学习，需后续 Review + Conversation 稳定表现才能升级
+  Mastered）。
+- Java：Interview Topic "Java Basics"，Interview Question "What is Java?"
+  完成 Step3–Step5 三轮回答，得分 88 → 95 → 98，最终答案已存入第 12 节 Java
+  Answer Bank，标记为 Practicing（需未来 Random Review 表现稳定才能升级
+  Mastered）。
+- 架构：本 Session 中发现并修补了 Voice Mode 打断用户的执行缺陷，详见文档
+  开头 V11.4 说明与第 3/6 节 Voice Listening First 规则（Part 1 Bug Fix，
+  未改变学习流程结构）。
