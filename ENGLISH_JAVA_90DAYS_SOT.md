@@ -915,7 +915,7 @@ WebSocket。
 Java 成熟、稳定、生态完善，非常适合企业级后端系统开发，是构建微服务架构与
 高并发系统的重要技术选型。
 Mastery Status: Practicing
-Review History: Session 2 — introduced as this Session's Interview Question, multiple rounds practiced; user moved from reciting toward a logical structure rather than memorized sentences, wording not yet finalized. Session 3 — completed via AI demonstration → Round1 → Round2 → Round3; Round2 refined wording ("backend" instead of "backend management", "runs on the JVM"); Round3 produced a complete, fluent, structured interview-quality answer (Conclusion → Technical Advantages → Personal Experience → Summary), scored 99/100, saved above as the locked Final Answer per the Java Canonical Answer Rule (第 6 节). Kept at Practicing rather than Mastered per 9.1 Java Mastery Criteria — interview quality reached, but subsequent Random Review performance has not yet been observed.
+Review History: Session 2 — introduced as this Session's Interview Question, multiple rounds practiced; user moved from reciting toward a logical structure rather than memorized sentences, wording not yet finalized. Session 3 — completed via AI demonstration → Round1 → Round2 → Round3; Round2 refined wording ("backend" instead of "backend management", "runs on the JVM"); Round3 produced a complete, fluent, structured interview-quality answer (Conclusion → Technical Advantages → Personal Experience → Summary), scored 99/100, saved above as the locked Final Answer per the Java Canonical Answer Rule (第 6 节). Kept at Practicing rather than Mastered per 9.1 Java Mastery Criteria — interview quality reached, but subsequent Random Review performance has not yet been observed. Session 4 — first post-finalization review: repeated the full interview answer, structure unchanged (Conclusion → Technical Advantages → Personal Experience → Summary) per the Java Canonical Answer Rule, terminology correction (Backend/后端, not 后台). Fluent, stable, technically accurate. Kept at Practicing — this is only the first Random Review since Final Answer was locked; 9.1 requires consistently satisfying performance across future reviews, not a single instance, before promotion to Mastered.
 
 ## 13. Current Session
 
@@ -952,26 +952,26 @@ Java Active Questions（当前 2 个，均 ≤ 5，全部纳入）：
 
 ### 13.2 Session Detail
 
-- Session: 3（已完成，等待开始 Session 4）
+- Session: 4（已完成，等待开始 Session 5）
 - English Topic 1: Self Introduction（5 组 Q&A，Practicing，Topic 未完成；本
-  Session 完成 Combined Questions / Role Switch / Free Conversation 复习，
-  表现流利、接近自动反应）
+  Session 完成 Individual Q&A / Random Question Review / Consecutive
+  Question Practice / Continuous Speaking Practice 复习）
 - English Topic 2: English Learning（5 组 Q&A，Practicing，Topic 未完成；
   复习情况同 Topic 1）
-- English Topic 3: Daily Routine（5 组 Q&A，本 Session 新学，Practicing，
-  Topic 未完成；已完成 Practice / Individual Review / Random Review /
-  Combined Questions / Today's Final Review，全部 5 组均可正确、流利作答）
+- English Topic 3: Daily Routine（5 组 Q&A，Practicing，Topic 未完成；复习
+  情况同 Topic 1）
 - Java Interview Topic: Java Basics
-- Java Interview Question: What is Java? → Practicing（未变动）
+- Java Interview Question: What is Java? → Practicing（本 Session 未涉及）
 - Java Interview Question: Why do you use Java? → Practicing（本 Session
-  完成 AI 示范 + 三轮回答，Final Answer 已定稿并存入第 12 节，99/100；按
-  9.1 标准仍需未来 Random Review 表现稳定后才能升级 Mastered）
+  完成一次完整复述，Final Answer 结构保持稳定未改写，符合第 6 节 Java
+  Canonical Answer Rule；按 9.1 标准仍需更多次 Random Review 持续稳定表现
+  后才能升级 Mastered，本次是定稿后的第一次复习，尚不满足"持续"标准）
 - 状态：已学 English Topic 数为 3（≤ 5），第 7 节 Coverage Rule 仍要求 Review
-  覆盖全部已学 Topic 下的全部 Question。Session 4 开始时，英语先 Review
-  Topic 1 + Topic 2 + Topic 3 共 15 组 Question（随机顺序、纯英文/Chinese
-  Prompt Method、Combined Questions、Role Switch、Free Conversation），
-  表现稳定后才可引入 Topic 4；Java 在 "Java Basics" Topic 下引入下一个
-  Interview Question。
+  覆盖全部已学 Topic 下的全部 Question；本 Session 全程为 Review/Speaking
+  Practice，未引入新 Topic 或新 Java Question。Session 5 开始时，英语继续
+  Review Topic 1–3（Active Review Window，见第 13.1 节），表现稳定后才可
+  引入 Topic 4；Java 先 Random Review "What is Java?" 与 "Why do you use
+  Java?"，两者均稳定后才可引入 Java Basics 下一个 Interview Question。
 
 ## 14. Learning Log
 
@@ -1045,3 +1045,25 @@ Java Active Questions（当前 2 个，均 ≤ 5，全部纳入）：
 - 备注：本次 Session 内容以外部总结形式提交并由 Claude 补录入 SOT，第 11
   节 Daily Routine 的 IPA 与中文谐音由 Claude 根据标准发音补充（原始对话中
   未提供逐字 IPA），供后续发音练习参考。
+
+### Session 4（2026-07-08）
+
+- English：全程 Review + Speaking Practice，未引入新 Topic。完整复习 Topic
+  1（Self Introduction）/ Topic 2（English Learning）/ Topic 3（Daily
+  Routine），完成 Individual Q&A、Random Question Review、Consecutive
+  Question Practice、Continuous Speaking Practice（呼应 V11.15 新增的
+  Continuous Flow Rule，长时间连续对话未出现逐题等待"继续"的情况）。发音/
+  用词强化：usually、weekends、before、get up、go to bed。学员在练习中
+  自行识别出两个超纲变体并被纠正：误将 "How do you learn English?" 说成
+  "What do you usually do to learn English?"；以及提出 "Where do you
+  usually live?" 作为 "Where do you live now?" 的变体——均被指出不属于当前
+  Question Bank，验证了第 3 节 Session Context Grounding 规则（V11.15）
+  在实际对话中生效。三个 Topic 均保持 Practicing（尚未达到 9.1 节 Mastered
+  标准，需未来 Random Review 持续稳定）。
+- Java：Random Review "Why do you use Java?"——完整复述一次，结构保持
+  稳定（结论 → 技术优势 → 个人经验 → 总结），未改写逻辑与要点，符合第 6
+  节 Java Canonical Answer Rule；术语纠正：正确使用"后端"而非"后台"。保持
+  Practicing——这是 Final Answer 定稿后的第一次复习，按 9.1 节标准仍需未来
+  多次 Random Review 持续稳定表现才能升级 Mastered。
+- 架构：本 Session 未发现新的架构缺陷，未修改第一部分课程规范，版本保持
+  V11.15。
