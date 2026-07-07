@@ -13,6 +13,75 @@ Read this ENGLISH_JAVA_90DAYS_SOT.md completely.
 
 
 
+每天流程
+1.上午
+
+打开 ChatGPT。
+
+新建聊天。
+
+上传：
+
+CURRENT_QUEUE.md
+
+发送：
+
+Continue today's English + Java session.
+
+Use ONLY CURRENT_QUEUE.md.
+
+English:
+- Ask only questions from English Active Review Window.
+- Random order.
+- Continuous speaking practice.
+- Do not stop after each answer.
+- Minimal praise only.
+- No new questions unless I explicitly say "learn new topic".
+
+Java:
+- Use only Java Active Review Window.
+- Chinese only.
+- One question at a time.
+- If reviewing, score and correct based on Canonical Answer.
+
+Stop only when I say:
+暂停 / 结束 / 解释一下
+
+结束。
+
+2.晚上
+
+学习结束。
+
+你对 ChatGPT 说：
+
+今天学习结束，请生成 Today's Learning Summary。
+
+ChatGPT：
+
+生成：
+
+Today's Learning Summary。
+
+然后：
+
+Claude：
+
+更新：
+
+ENGLISH_JAVA_90DAYS_SOT.md
+
+更新完以后：
+
+自动生成：
+
+CURRENT_QUEUE.md
+
+第二天：
+
+继续。
+
+
 
 
 

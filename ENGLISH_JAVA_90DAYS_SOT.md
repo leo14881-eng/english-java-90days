@@ -919,6 +919,39 @@ Review History: Session 2 — introduced as this Session's Interview Question, m
 
 ## 13. Current Session
 
+### 13.1 Active Review Window（执行层机制，每 Session 结束时整体覆盖重写，
+不追加历史，不改变课程架构）
+
+机制说明（呼应第 3 节 Session Context Grounding 与第 7 节 Review Rules，
+纯执行层数据，不属于第一部分课程规范）：
+- English Active Topics = 最近学习的 ≤ 5 个 English Topic；已学 Topic 总数
+  ≤ 5 时全部纳入（与第 7 节 Coverage Rule 的 ≤5 阶段一致）。
+- Java Active Questions = 最近学习的 ≤ 5 个 Java Interview Question；已学
+  Question 总数 ≤ 5 时全部纳入。
+- 一旦 Topic / Question 总数 > 5，Active Review Window 改为采用第 7 节
+  Priority-Based Review Engine 本次 Session 实际选中的集合，而不是单纯按
+  引入时间截取最近 5 个——避免仍标记为 Needs Review / 表现不稳定的旧内容
+  被纯时间窗口永久排除；已 Mastered 的内容仍按第 7 节的低优先级长期抽查
+  节奏处理，不放入每次的全量队列（不改变第 7 节抽查概率表本身）。
+- 本 Session 内 English Speaking Practice 与 Java Interview Practice 只能
+  从下方列出的 Active Topics / Questions 中提问或练习，不得超纲（呼应第 3
+  节 Session Context Grounding）。Java 引入"下一个新 Interview Question"
+  仍按第 5.1 节既有规则进行，不受本窗口限制——本窗口只约束"复习/练习哪些
+  已学内容"，不约束"何时学新内容"。
+- 本小节内容每个 Session 结束时整体覆盖重写为下一次对话的窗口快照，不保留
+  历史版本；完整历史仍完整保存在第 11/12/14 节，不受本小节覆盖影响。
+
+English Active Topics（当前 3 个，均 ≤ 5，全部纳入）：
+- Topic: Self Introduction
+- Topic: English Learning
+- Topic: Daily Routine
+
+Java Active Questions（当前 2 个，均 ≤ 5，全部纳入）：
+- What is Java?
+- Why do you use Java?
+
+### 13.2 Session Detail
+
 - Session: 3（已完成，等待开始 Session 4）
 - English Topic 1: Self Introduction（5 组 Q&A，Practicing，Topic 未完成；本
   Session 完成 Combined Questions / Role Switch / Free Conversation 复习，
