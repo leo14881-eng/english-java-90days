@@ -7,7 +7,12 @@
 唯一权威学习记录文件仍然是 `ENGLISH_JAVA_90DAYS_SOT.md`（第 13 节
 Active Review Window）。本文件与其内容不一致时，以 SOT 为准。
 
-Generated: 2026-07-08（基于 SOT V11.15，Session 4 完成后状态）
+**Regeneration cadence**：每当 ENGLISH_JAVA_90DAYS_SOT.md 在某次执行中被
+修改，同一次执行必须以完全重新生成并整体覆盖本文件作为最后一步（不追加、
+不保留旧内容）。此约定记录在维护者的会话记忆中，不属于 SOT 第一部分，
+不受 Architecture Freeze 约束。
+
+Generated: 2026-07-09（基于 SOT V11.17，Session 6 完成后状态）
 
 ---
 
@@ -16,8 +21,9 @@ Generated: 2026-07-08（基于 SOT V11.15，Session 4 完成后状态）
 - Topic: Self Introduction
 - Topic: English Learning
 - Topic: Daily Routine
+- Topic: Family
 
-（当前已学 Topic 数为 3，≤ 5，全部纳入窗口）
+（当前已学 Topic 数为 4，≤ 5，全部纳入窗口）
 
 ---
 
@@ -44,15 +50,25 @@ Generated: 2026-07-08（基于 SOT V11.15，Session 4 完成后状态）
 4. Q: What do you usually do before you go to bed? — A: I usually read a book before I go to bed.
 5. Q: What do you usually do on weekends? — A: I usually study English on weekends.
 
+### Topic: Family
+1. Q: Do you have a family? — A: Yes, I do. I have a happy family.
+2. Q: How many people are there in your family? — A: There are three people in my family.
+3. Q: Who do you live with? — A: I live with my wife.
+4. Q: What does your wife do? — A: She is a teacher.
+5. Q: Do you often spend time with your family? — A: Yes, I do. I often spend time with my family.
+
 ---
 
 ## 3. Java Active Review Window
 
-- Interview Topic: Java Basics
+- Interview Topic: Java Basics（已完成，永久保留在 Random Review 池，见
+  Scenario Interview Mode）
   - Interview Question: What is Java?
   - Interview Question: Why do you use Java?
+- Interview Topic: Production Incident Scenarios
+  - Scenario 1: 线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？
 
-（当前已学 Question 数为 2，≤ 5，全部纳入窗口）
+（当前已学 Question/Scenario 数为 3，≤ 5，全部纳入窗口）
 
 ---
 
@@ -65,7 +81,7 @@ Java 是一门面向对象、跨平台的编程语言。
 它被广泛应用于电商、银行、金融、大数据等企业级应用开发场景。
 在我的工作中，我主要使用 Java 开发高并发后端系统与微服务。
 我主要使用的技术栈包括 Spring Boot、Redis、MySQL、Kafka、MQ 和 WebSocket。
-（Mastery Status: Practicing）
+（Mastery Status: Practicing — 已完成 2 次锁定后 Random Review）
 
 ### Interview Question: Why do you use Java?
 1. 结论
@@ -84,16 +100,43 @@ WebSocket。
 4. 总结
 Java 成熟、稳定、生态完善，非常适合企业级后端系统开发，是构建微服务架构与
 高并发系统的重要技术选型。
-（Mastery Status: Practicing — Final Answer 已锁定，未来复习不得改写逻辑
-结构与要点，仅可提升流利度/发音/自信程度）
+（Mastery Status: Practicing — 已完成 2 次锁定后 Random Review；注意：此答案
+沿用旧的编号列表格式，为 V11.16 之前锁定的历史条目，不追溯改写，新规则
+[Canonical Answer Style Rule] 仅对未来内容生效）
+
+### Scenario 1: 线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？
+
+**Interviewer Intent**：考察线上故障处理能力、处理优先级、线上经验以及
+Senior / Tech Lead 的决策思维。
+
+**Canonical Thinking（内部思维框架，面试作答时不得直接说出）**：
+Impact Assessment → Business Recovery → Root Cause Analysis →
+Recovery Validation → RCA / Long-term Prevention
+
+**Canonical Answer**：
+如果线上接口 RT 突然从 50ms 飙升到 3 秒，我首先会确认问题影响范围，看是
+单个接口、单个服务还是整个系统，同时确认哪些核心业务受到了影响。
+
+确认影响范围以后，我会优先恢复业务。如果是新版本导致的问题，我会优先
+回滚；如果系统压力过大，我会根据情况做限流、降级、熔断或者扩容，先让
+业务恢复正常。
+
+业务恢复以后，我会结合监控、日志和链路追踪继续定位原因，看问题是在
+JVM、数据库、Redis、MQ，还是第三方接口，尽快找到真正的故障点。
+
+最后，我会持续观察系统是否已经恢复正常，并组织团队做一次 RCA，把根因
+分析清楚，同时完善监控和告警，避免同样的问题再次发生。
+（Mastery Status: Practicing — 三轮流程刚完成，尚未经过后续 Session 的
+Random Review）
 
 ---
 
 ## 5. Session Rules（供外部工具执行时参考的关键约束摘要）
 
-- **Curriculum Boundary**：AI 只能从上方 Active Review Window 中的
-  Question/Interview Question 提问或练习，禁止改写、扩写、临场编造相似
-  或"顺理成章"的新问题；只有明确进入"学新内容"环节才允许引入新问题。
+- **Curriculum Boundary / Session Context Grounding**：AI 只能从上方
+  Active Review Window 中的 Question/Interview Question/Scenario 提问或
+  练习，禁止改写、扩写、临场编造相似或"顺理成章"的新问题；只有明确进入
+  "学新内容"环节才允许引入新问题。
 - **Continuous Flow**：完成一次简短反馈后立即自动提出下一题，不等待
   "继续"之类的确认；除非学员明确要求暂停/结束/讲解/提问。
 - **Correct Fast-Path**：完全正确时只做简短确认（如 "Correct.
@@ -109,15 +152,27 @@ Java 成熟、稳定、生态完善，非常适合企业级后端系统开发，
   由学员自己说出英文 Question 与 Answer；该 Topic 完成 Immediate
   Reinforcement 后可切换为纯英文提问/回答，不再使用中文提示。
 - **Java Language Rule**：Java Interview 全程使用中文，专有技术名词（JVM/
-  Spring Boot/Redis 等）保留英文；Final Answer 逻辑结构永久锁定，不得
+  Spring Boot/Redis 等）保留英文；Canonical Answer 逻辑结构永久锁定，不得
   重写，除非学员明确要求修订。
+- **Canonical Answer Style Rule**（V11.16）：Canonical Answer 必须口语化、
+  自然，禁止"First/Second/Third"式编号罗列，约一分钟，体现真实 Senior
+  生产经验，"自然地思考，而不是自然地背诵"。
+- **Canonical Thinking Rule**（V11.16）：每个 Java Question 分两层——
+  Layer 1 Canonical Answer（实际说出）与 Layer 2 Canonical Thinking（内部
+  思维框架）；Layer 2 永远不得在作答中直接说出或列举。
+- **Scenario Interview Mode**（V11.16）：Java Basics 两个基础问题锁定后，
+  此后所有新 Interview Question 默认使用场景型（Scenario）框架，每
+  Session 仍只新增一个。
 
 ---
 
 ## 6. Next Session
 
 - English：继续 Review Topic 1（Self Introduction）+ Topic 2（English
-  Learning）+ Topic 3（Daily Routine），随机顺序、Combined Questions、
-  Role Switch、Free Conversation；表现稳定后才可引入 Topic 4。
-- Java：先 Random Review "What is Java?" 与 "Why do you use Java?"，两者
-  表现均稳定后才可在 Java Basics Topic 下引入下一个 Interview Question。
+  Learning）+ Topic 3（Daily Routine）+ Topic 4（Family），随机顺序、
+  Combined Questions、Role Switch、Free Conversation；表现稳定后才可
+  引入 Topic 5。
+- Java：按 Scenario Interview Mode 引入下一个新场景——"Production CPU
+  突然达到 100%，你会如何排查和处理？"（学员已预告，尚未开始
+  Step1–Step5）；同时 Random Review 池已包含 What is Java? / Why do you
+  use Java? / Scenario 1 三题。
