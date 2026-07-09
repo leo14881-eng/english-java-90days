@@ -1080,6 +1080,57 @@ Standard Answer:
   - 中文谐音: 耶斯 埃 度 埃 欧分 斯奔德 太姆 威兹 买 法弭力
 Mastery Status: Practicing
 
+Topic: Food
+
+1.
+Question:
+  - English: What is your favorite food?
+  - 中文翻译: 你最喜欢的食物是什么？
+  - IPA: /wɒt ɪz jɔː ˈfeɪvərɪt fuːd/
+  - 中文谐音: 沃特 伊兹 尤 费沃瑞特 福德
+Standard Answer:（Session 7 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+2.
+Question:
+  - English: What food do you eat most often?
+  - 中文翻译: 你最常吃什么食物？
+  - IPA: /wɒt fuːd duː juː iːt məʊst ˈɒfən/
+  - 中文谐音: 沃特 福德 度 尤 意特 莫斯特 欧分
+Standard Answer:（Session 7 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+3.
+Question:
+  - English: Can you cook?
+  - 中文翻译: 你会做饭吗？
+  - IPA: /kæn juː kʊk/
+  - 中文谐音: 坎 尤 库克
+Standard Answer:（Session 7 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+4.
+Question:
+  - English: What do you usually drink?
+  - 中文翻译: 你通常喝什么？
+  - IPA: /wɒt duː juː ˈjuːʒuəli drɪŋk/
+  - 中文谐音: 沃特 度 尤 尤磁尤力 追恩克
+Standard Answer:（Session 7 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+5.
+Question:
+  - English: Do you like spicy food?
+  - 中文翻译: 你喜欢吃辣的食物吗？
+  - IPA: /duː juː laɪk ˈspaɪsi fuːd/
+  - 中文谐音: 度 尤 莱克 斯派西 福德
+Standard Answer:
+  - English: I like spicy food very much.
+  - 中文翻译: 我非常喜欢吃辣的食物。
+  - IPA: /aɪ laɪk ˈspaɪsi fuːd ˈveri mʌtʃ/
+  - 中文谐音: 埃 莱克 斯派西 福德 维瑞 玛奇
+Mastery Status: Practicing
+
 ## 12. Java Answer Bank
 
 记录格式：
@@ -1210,40 +1261,62 @@ Mastered，与 Java Basics 既有两条记录的判定方式一致。
 - 本小节内容每个 Session 结束时整体覆盖重写为下一次对话的窗口快照，不保留
   历史版本；完整历史仍完整保存在第 11/12/14 节，不受本小节覆盖影响。
 
-English Active Topics（当前 4 个，均 ≤ 5，全部纳入）：
+English Active Topics（当前 5 个，均 ≤ 5，全部纳入）：
 - Topic: Self Introduction
 - Topic: English Learning
 - Topic: Daily Routine
 - Topic: Family
+- Topic: Food
 
-Java Active Questions（当前 3 个，均 ≤ 5，全部纳入）：
+Java Active Questions（当前 3 个，均 ≤ 5，全部纳入；Scenario 2「Production
+CPU 100%」的 Canonical Answer 原文尚未提供，暂未计入本窗口，待补全第 12 节
+后一并更新）：
 - What is Java?
 - Why do you use Java?
 - Scenario 1：线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？
 
 ### 13.2 Session Detail
 
-- Session: 6（已完成，等待开始 Session 7）
-- English Topic 4: Family（5 组 Q&A，Practicing，Topic 未完成；本 Session
-  新学，通过中文→英文反复翻译练习完成 Immediate Reinforcement，另完成 3
-  道语法强化追加问题：Is your wife a teacher? / Is your wife happy? / Is
-  your family happy?，强化 Do/Does/Is 疑问句型、she vs it、live with vs
-  spend time with、What does...do?、How many people are there...? 等语法
-  点；Session 结束时 5 组问答均能独立正确作答）。Topic 1–3（Self
-  Introduction / English Learning / Daily Routine）本 Session 未涉及，状态
-  保持不变。
-- Java：Random Review "What is Java?" 与 "Why do you use Java?"——均成功
-  复述，Senior 级别答案结构保持稳定，表达更自然流利，详见第 12 节 Review
-  History（均为该问题锁定后的第二次 Random Review，仍标记 Practicing，未
-  达到 9.1 节"持续满意"的晋升门槛）。Java Scenario 1（线上接口 RT 从 50ms
-  飙升到 3 秒）已于 Session 5 完成三轮流程并锁定 Canonical Answer，本
-  Session 未重复记录，详见第 12 节 "Production Incident Scenarios"。
-- 状态：本 Session 新增英语 Topic 4 并完成 Immediate Reinforcement 后才
-  进行 Java Random Review，符合第 3 节 Session 内启动条件。Session 7
-  开始时：英语继续 Review Topic 1–4（Active Review Window，见第 13.1
-  节），表现稳定后可引入 Topic 5；Java 按第 5.1 节 Scenario Interview
-  Mode 引入下一个新场景——"Production CPU 突然达到 100%，你会如何排查和
-  处理？"（用户已预告，尚未开始 Step1–Step5 流程）。
+- Session: 7（英语部分已完成同步；Java 部分待用户补充 Scenario 2 的
+  Canonical Answer/Interviewer Intent 原文后才能完整写入第 12 节，见下方
+  "待补全" 说明）
+- English Topic 1–4（Self Introduction / English Learning / Daily
+  Routine / Family）：完成整体 Review（Individual + Random + Combined +
+  Role Switch，Family Topic 额外完成 Role Switch），Review 中的语法纠正：
+  "at home"（非 "in my home"）、"one child"（非 "one children"）、"Do you
+  like spicy food?"（非 "Do you like spicy?"）、"I like spicy food very
+  much."（去掉误加的 "is"）——纠正内容未逐一对应第 11 节某条固定 Standard
+  Answer（多发生于 Review/Role Switch 中的自由表达延伸），故未回填改写第
+  11 节历史条目，仅在第 14 节 Learning Log 中叙述记录。新学 Topic 5:
+  Food，5 组 Q&A，已存入第 11 节，完成 Immediate Reinforcement / Random
+  Review / Combined Questions / Today's Final Review，Session 结束时 5
+  组问答均能正确作答，标记 Practicing（Topic 未完成）。
+- Java：Scenario "Production CPU 突然达到 100%" 完成 Interviewer Intent →
+  Thinking Process → Canonical Answer → 三轮练习的训练流程，Canonical
+  Thinking 已确认为 Impact → Business Recovery → Root Cause Investigation
+  → Recovery Verification → RCA；三轮得分 99 / 99 / 95。Final Improvement
+  笔记：Recovery Verification 阶段应包含"先修复问题、再观察系统状态"两个
+  子步骤；补充讲解了 Error Rate 概念；面试第一轮回答应优先"确认业务已恢复"
+  这一结论，CPU/RT/Error Rate 等具体指标留待面试官追问时再展开。**待补全**：
+  本次提交的 Session 总结未包含 Round3 的逐字最终回答文本与 Interviewer
+  Intent 分析文本，按第 6 节 Java Canonical Answer Rule，Canonical Answer
+  必须锁定真实回答原文才能存入第 12 节，因此本 Scenario 尚未写入第 12 节，
+  待用户提供后立即补全（不得由 AI 代为编造锁定文本）。
+- Course Improvement（Validation Only，未采纳）：本 Session 试验了一种新的
+  Java 面试表达风格候选方向——保留完整技术逻辑，但用更口语自然的表达，
+  目标时长约 60–90 秒，听起来像 Senior 工程师描述真实工作而非背诵；核心
+  流程保持 Impact → Recovery → Investigation → Verification → RCA 不变；
+  同时提出一个新教学模板候选（Interviewer Intent → Thinking Process →
+  Canonical Answer → Review）。用户明确声明这只是"验证"，尚未采纳进入
+  SOT，需要在 OOM / Database / Redis / MQ / RT Spike 等更多场景下验证后才
+  考虑是否正式改动课程（若改动，需按 Architecture Freeze 走 Execution
+  Improvement 或 Architecture Bug Fix 审计流程，见第 6 节相关规则群与文档
+  开头版本历史）。本次未修改第一部分课程规范，版本保持 V11.17。
+- Next Session：英语继续 Topic 5 (Food) 的 Random Review，若表现稳定可引入
+  Topic 6；Java 按 Scenario Interview Mode 引入下一场景 "Production OOM
+  (OutOfMemoryError)"，沿用当前教学流程 Interviewer Intent → Thinking
+  Process → Canonical Answer → User Practice → Review（该流程仍属
+  Validation Only，非正式 SOT 规则）。
 
 ## 14. Learning Log
 
@@ -1385,3 +1458,39 @@ Java Active Questions（当前 3 个，均 ≤ 5，全部纳入）：
   Rule / Scenario 记录格式均为 Session 5 内新增，Scenario 1 相关数据已在
   Session 5 记入第 12 节，本 Session 不重复记录，仅记录新增的 Random
   Review 与英语学习内容）。
+
+### Session 7（2026-07-09）
+
+- English：完整 Review 了 Topic 1–4（Self Introduction / English Learning /
+  Daily Routine / Family），并针对 Family Topic 完成 Role Switch（学员成功
+  用英文向 AI 提问）。Review 中出现的语法纠正："at home"（非 "in my
+  home"）、"one child"（非 "one children"）——出现在自由表达延伸中，未对应
+  第 11 节某条固定 Standard Answer，未回填改写历史条目。新学 Topic 5:
+  Food，5 组 Q&A（What is your favorite food? / What food do you eat most
+  often? / Can you cook? / What do you usually drink? / Do you like spicy
+  food?），已按 English Learning Template 存入第 11 节；其中 "Do you like
+  spicy food?" 的 Standard Answer 已确认为 "I like spicy food very much."
+  （纠正了误加的 "is"），其余 4 组 Standard Answer 本次总结未提供逐字文本，
+  沿用 Session 2 "Do you like learning English?" 的既有做法，标注待下次
+  Session 确认后补全。完成 Immediate Reinforcement、Random Review、
+  Combined Questions、Today's Final Review，5 组问答 Session 结束时均能
+  正确作答，标记为 Practicing（Topic 未完成）。
+- Java：Interview Topic "Production Incident Scenarios" 新场景
+  "Production CPU 突然达到 100%"，完成 Interviewer Intent → Thinking
+  Process → Canonical Answer → 三轮回答的训练流程，Canonical Thinking 确认
+  为 Impact → Business Recovery → Root Cause Investigation → Recovery
+  Verification → RCA，三轮得分 99 / 99 / 95。Final Improvement：Recovery
+  Verification 应包含"先修复、再观察"两个子步骤，补充讲解 Error Rate 概念，
+  面试第一轮回答优先"确认业务已恢复"这一结论、具体指标留待追问时展开。
+  **本 Scenario 尚未写入第 12 节**——本次提交的总结未包含 Round3 的逐字
+  最终回答与 Interviewer Intent 分析原文，按第 6 节 Java Canonical Answer
+  Rule 不得由 AI 代为编造锁定文本，待用户提供后立即补全，详见第 13.2 节。
+- Course Improvement（Validation Only，未采纳，未修改第一部分课程规范，
+  版本保持 V11.17）：本 Session 验证了一种更口语化、更贴近真实 Senior
+  工程师表达（约 60–90 秒）的 Java 面试回答风格候选方向，核心流程 Impact →
+  Recovery → Investigation → Verification → RCA 不变；同时提出新教学模板
+  候选（Interviewer Intent → Thinking Process → Canonical Answer →
+  Review）。仅在本场景（CPU）验证成功，用户明确要求需在 OOM / Database /
+  Redis / MQ / RT Spike 等更多场景验证后才考虑正式采纳。
+- 架构：本 Session 未发现新的架构缺陷，未修改第一部分课程规范，版本保持
+  V11.17。
