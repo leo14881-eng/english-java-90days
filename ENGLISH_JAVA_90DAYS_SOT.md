@@ -1147,6 +1147,53 @@ Standard Answer:
   - 中文谐音: 埃 莱克 斯派西 福德 维瑞 玛奇
 Mastery Status: Practicing
 
+Topic: Shopping
+
+1.
+Question:
+  - English: Where do you usually go shopping?
+  - 中文翻译: 你通常在哪里购物？
+  - IPA: /weər duː juː ˈjuːʒuəli ɡəʊ ˈʃɒpɪŋ/
+  - 中文谐音: 威尔 度 尤 尤磁尤力 果 沙鄙
+Standard Answer:（本 Session 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+2.
+Question:
+  - English: How often do you go shopping?
+  - 中文翻译: 你多久购物一次？
+  - IPA: /haʊ ˈɒfən duː juː ɡəʊ ˈʃɒpɪŋ/
+  - 中文谐音: 好 欧分 度 尤 果 沙鄙
+Standard Answer:（本 Session 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+3.
+Question:
+  - English: What do you usually buy?
+  - 中文翻译: 你通常买什么？
+  - IPA: /wɒt duː juː ˈjuːʒuəli baɪ/
+  - 中文谐音: 沃特 度 尤 尤磁尤力 拜
+Standard Answer:（本 Session 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+4.
+Question:
+  - English: Do you like shopping online?
+  - 中文翻译: 你喜欢网上购物吗？
+  - IPA: /duː juː laɪk ˈʃɒpɪŋ ˈɒnˌlaɪn/
+  - 中文谐音: 度 尤 莱克 沙鄙 昂来恩
+Standard Answer:（本 Session 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+5.
+Question:
+  - English: Do you usually pay by cash or by card?
+  - 中文翻译: 你通常用现金还是刷卡支付？
+  - IPA: /duː juː ˈjuːʒuəli peɪ baɪ kæʃ ɔː baɪ kɑːd/
+  - 中文谐音: 度 尤 尤磁尤力 佩 拜 卡什 哦 拜 卡德
+Standard Answer:（本 Session 未逐字记录标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
 ## 12. Java Answer Bank
 
 记录格式：
@@ -1290,7 +1337,17 @@ Final Improvement 笔记：Recovery Verification 阶段应包含"先修复问题
 CPU/RT/Error Rate 等具体指标留待面试官追问时再展开。按 9.1 节 Java
 Mastery Criteria，本次三轮属于初次完成流程，尚未经过后续 Session 的
 Random Review 验证，标记为 Practicing 而非 Mastered，与 Scenario 1 判定
-方式一致。
+方式一致。Session 8 — 首次 Random Review（Final Answer 锁定后第一次复
+查），复述结构与已锁定 Canonical Answer 一致（确认影响范围 → 优先恢复
+业务 → 结合监控/日志/链路追踪定位原因 → 修复并持续观察 → 组织 RCA），
+评分 99/100，未改写 Canonical Answer 本身。本次补充的执行层改进笔记：
+定位原因时应先通过监控/链路追踪确定 CPU 消耗集中在哪个环节，再基于证据
+针对性排查具体组件，而不是先罗列所有可能原因再逐一排查——与已锁定
+Canonical Answer 中"结合监控、日志和链路追踪，重点看看是不是 GC、线程、
+数据库、Redis、MQ，或者代码本身的问题"的顺序一致，此处作为强调，不构成
+对 Canonical Answer 文本的修订（学员未提出修订请求，遵循 Java Canonical
+Answer Rule）。按 9.1 节标准，这是锁定后的第一次 Random Review，仍标记
+Practicing。
 
 ## 13. Current Session
 
@@ -1316,12 +1373,18 @@ Random Review 验证，标记为 Practicing 而非 Mastered，与 Scenario 1 判
 - 本小节内容每个 Session 结束时整体覆盖重写为下一次对话的窗口快照，不保留
   历史版本；完整历史仍完整保存在第 11/12/14 节，不受本小节覆盖影响。
 
-English Active Topics（当前 5 个，均 ≤ 5，全部纳入）：
-- Topic: Self Introduction
-- Topic: English Learning
-- Topic: Daily Routine
-- Topic: Family
+English Active Topics（已学 Topic 总数达到 6 个，首次超过 ≤5 阈值，Coverage
+Rule 自本 Session 起从"全覆盖"切换为第 7 节 Priority-Based Review Engine
+抽样机制；下列 6 个 Topic 目前均为 Practicing 状态，按优先级表同属最高
+优先级档，按 Learning Recency 排序列出，供下次 Session 抽样参考——并非
+排除 Self Introduction，只是抽样时不再保证每次全部覆盖）：
+- Topic: Shopping（最新学习）
 - Topic: Food
+- Topic: Family
+- Topic: Daily Routine
+- Topic: English Learning
+- Topic: Self Introduction（最早学习，仍为 Practicing，纳入正常抽样轮换，
+  不再保证每个 Session 必然覆盖）
 
 Java Active Questions（当前 4 个，均 ≤ 5，全部纳入）：
 - What is Java?
@@ -1331,43 +1394,32 @@ Java Active Questions（当前 4 个，均 ≤ 5，全部纳入）：
 
 ### 13.2 Session Detail
 
-- Session: 7（已完成，等待开始 Session 8）
-- English Topic 1–4（Self Introduction / English Learning / Daily
-  Routine / Family）：完成整体 Review（Individual + Random + Combined +
-  Role Switch，Family Topic 额外完成 Role Switch），Review 中的语法纠正：
-  "at home"（非 "in my home"）、"one child"（非 "one children"）、"Do you
-  like spicy food?"（非 "Do you like spicy?"）、"I like spicy food very
-  much."（去掉误加的 "is"）——纠正内容未逐一对应第 11 节某条固定 Standard
-  Answer（多发生于 Review/Role Switch 中的自由表达延伸），故未回填改写第
-  11 节历史条目，仅在第 14 节 Learning Log 中叙述记录。新学 Topic 5:
-  Food，5 组 Q&A，已存入第 11 节，完成 Immediate Reinforcement / Random
-  Review / Combined Questions / Today's Final Review，Session 结束时 5
-  组问答均能正确作答，标记 Practicing（Topic 未完成）。
-- Java：Scenario 2 "线上 CPU 突然达到 100%" 完成 Interviewer Intent →
-  Canonical Thinking（Confirm impact → Recover business → Locate root
-  cause → Verify recovery → RCA）→ 三轮回答（99 / 99 / 95）的训练流程，
-  Round3 已作为 Canonical Answer 连同 Interviewer Intent、Canonical
-  Thinking 一并锁定存入第 12 节，符合第 6 节 Java Canonical Answer Rule 与
-  Canonical Thinking Rule。Final Improvement 笔记（已体现在锁定的
-  Canonical Answer 中）：Recovery Verification 阶段包含"先修复问题、再
-  观察系统状态"；补充讲解 Error Rate 概念；面试第一轮回答优先"确认业务已
-  恢复"，具体指标留待追问时展开。标记 Practicing（按 9.1 节标准，尚未经过
-  后续 Session 的 Random Review 验证）。
-- Course Improvement（Validation Only，未采纳）：本 Session 试验了一种新的
-  Java 面试表达风格候选方向——保留完整技术逻辑，但用更口语自然的表达，
-  目标时长约 60–90 秒，听起来像 Senior 工程师描述真实工作而非背诵；核心
-  流程保持 Impact → Recovery → Investigation → Verification → RCA 不变；
-  同时提出一个新教学模板候选（Interviewer Intent → Thinking Process →
-  Canonical Answer → Review）。用户明确声明这只是"验证"，尚未采纳进入
-  SOT，需要在 OOM / Database / Redis / MQ / RT Spike 等更多场景下验证后才
-  考虑是否正式改动课程（若改动，需按 Architecture Freeze 走 Execution
-  Improvement 或 Architecture Bug Fix 审计流程，见第 6 节相关规则群与文档
-  开头版本历史）。本次未修改第一部分课程规范，版本保持 V11.17。
-- Next Session：英语继续 Topic 5 (Food) 的 Random Review，若表现稳定可引入
-  Topic 6；Java 按 Scenario Interview Mode 引入下一场景 "Production OOM
-  (OutOfMemoryError)"，沿用当前教学流程 Interviewer Intent → Thinking
-  Process → Canonical Answer → User Practice → Review（该流程仍属
-  Validation Only，非正式 SOT 规则）。
+- Session: 8（已完成，等待开始 Session 9）
+- English：完整 Review Topic 1–5（Self Introduction / English Learning /
+  Daily Routine / Family / Food，其中 Food 为 full review），Immediate
+  Reinforcement 与 Today's Final Review 均完成 5/5。新学 Topic 6:
+  Shopping，5 组 Question 已存入第 11 节（Standard Answer 本次未逐字提供，
+  按占位注明，沿用 Session 2/7 已确立的做法），完成 Immediate Reinforcement
+  (5/5) 与 Today's Final Review (5/5)，标记 Practicing（Topic 未完成）。
+  已学 Topic 总数达到 6 个，首次超过第 7 节 Coverage Rule 的 ≤5 阈值，自
+  下次 Session 起 Review 覆盖范围切换为 Priority-Based Review Engine 抽样
+  机制（不再保证每次全覆盖），详见 13.1。
+- Java：Random Review "线上 CPU 突然达到 100%"（Scenario 2，Final Answer
+  已于 Session 7 锁定）——复述结构与已锁定 Canonical Answer 一致，评分
+  99/100，未改写 Canonical Answer。补充执行层改进笔记：定位原因前应先通过
+  监控/链路追踪确定 CPU 消耗集中环节，再基于证据排查具体组件，而不是先
+  罗列所有可能原因。标记 Practicing（按 9.1 节标准，这是锁定后第一次
+  Random Review）。
+- English Mistakes Corrected（本 Session 5 项，详见第 14 节 Learning
+  Log）：study vs learn；three vs there；How often vs How long；My
+  favorite drink is water（而非 "I favorite drink water"）；Shopping
+  Question Pattern（"Do you usually pay by cash or by card?" 而非误加
+  "What do you..."）——其中 Shopping Question Pattern 为本 Session 唯一
+  重复出现多次的错误，下次 Session 需重点复习。
+- Next Session：英语复习 Topic 6 (Shopping)，并对 Topic 1–6 做随机复习
+  （Priority-Based Review Engine，Self Introduction 等较早 Topic 起不再
+  保证每次全覆盖），Shopping 稳定后可引入 Topic 7；Java 随机复习既有已学
+  Interview Question/Scenario。
 
 ## 14. Learning Log
 
@@ -1547,5 +1599,42 @@ Java Active Questions（当前 4 个，均 ≤ 5，全部纳入）：
   候选（Interviewer Intent → Thinking Process → Canonical Answer →
   Review）。仅在本场景（CPU）验证成功，用户明确要求需在 OOM / Database /
   Redis / MQ / RT Spike 等更多场景验证后才考虑正式采纳。
+- 架构：本 Session 未发现新的架构缺陷，未修改第一部分课程规范，版本保持
+  V11.17。
+
+### Session 8（2026-07-10）
+
+- English：完整 Review Topic 1–5（Self Introduction / English Learning /
+  Daily Routine / Family / Food，Food 为 full review），Immediate
+  Reinforcement 与 Today's Final Review 均完成 5/5。新学 Topic 6:
+  Shopping，5 组 Question（Where do you usually go shopping? / How often
+  do you go shopping? / What do you usually buy? / Do you like shopping
+  online? / Do you usually pay by cash or by card?）已按 English Learning
+  Template（中文翻译/IPA/中文谐音由 Claude 根据标准发音补充）存入第 11
+  节，Standard Answer 本次未逐字提供，沿用 Session 2/7 已确立的占位做法，
+  待下次 Session 确认后补全。完成 Immediate Reinforcement (5/5)、Today's
+  Final Review (5/5)，标记 Practicing（Topic 未完成）。本 Session 学习后
+  已学 Topic 总数达到 6 个，首次超过第 7 节 Coverage Rule 的 ≤5 阈值，Review
+  覆盖范围自下次 Session 起切换为 Priority-Based Review Engine 抽样机制。
+  语法纠正（5 项，按 Accurate Feedback Rule 记录）：
+  1. study vs learn：❌ How long do you learn English every day? → ✅ How
+     long do you study English every day?
+  2. three vs there：❌ There are there people in my family. → ✅ There
+     are three people in my family.
+  3. How often vs How long：❌ How long do you eat hot pot? → ✅ How often
+     do you eat hot pot?
+  4. Favorite drink 句型：❌ I favorite drink water. → ✅ My favorite
+     drink is water.
+  5. Shopping Question Pattern：❌ What do you usually pay by cash or by
+     card? → ✅ Do you usually pay by cash or by card?——本 Session 唯一
+     重复出现多次的错误，下次 Session 需重点复习。
+- Java：Random Review "线上 CPU 突然达到 100%"（Scenario 2，Final Answer
+  已于 Session 7 锁定）——复述结构（确认影响范围 → 优先恢复业务 → 结合
+  监控/日志/链路追踪定位原因 → 修复并持续观察 → 组织 RCA）与已锁定
+  Canonical Answer 一致，评分 99/100，符合第 6 节 Java Canonical Answer
+  Rule（未改写 Canonical Answer 文本）。补充执行层改进笔记：定位原因前
+  应先通过监控/链路追踪确定 CPU 消耗集中在哪个环节，再基于证据针对性排查
+  具体组件，而不是先罗列所有可能原因再逐一排查。按 9.1 节标准，这是锁定
+  后第一次 Random Review，标记 Practicing。
 - 架构：本 Session 未发现新的架构缺陷，未修改第一部分课程规范，版本保持
   V11.17。

@@ -12,20 +12,23 @@ Active Review Window）。本文件与其内容不一致时，以 SOT 为准。
 不保留旧内容）。此约定记录在维护者的会话记忆中，不属于 SOT 第一部分，
 不受 Architecture Freeze 约束。
 
-Generated: 2026-07-09（基于 SOT V11.17，Session 7 完成后状态，Food Topic
-全部 5 组 Standard Answer 已补全）
+Generated: 2026-07-10（基于 SOT V11.17，Session 8 完成后状态，新增 Topic 6
+Shopping；已学 English Topic 数达到 6，首次超过 ≤5 阈值，Coverage Rule 切换
+为 Priority-Based Review Engine 抽样机制）
 
 ---
 
 ## 1. English Active Review Window
 
-- Topic: Self Introduction
-- Topic: English Learning
-- Topic: Daily Routine
-- Topic: Family
-- Topic: Food
+已学 Topic 总数为 6，超过 ≤5 阈值，以下按 Learning Recency 排序（全部为
+Practicing，优先级表同属最高档），供抽样参考，不再保证每次全覆盖：
 
-（当前已学 Topic 数为 5，≤ 5，全部纳入窗口）
+- Topic: Shopping（最新学习）
+- Topic: Food
+- Topic: Family
+- Topic: Daily Routine
+- Topic: English Learning
+- Topic: Self Introduction（最早学习，仍在正常轮换中）
 
 ---
 
@@ -65,6 +68,13 @@ Generated: 2026-07-09（基于 SOT V11.17，Session 7 完成后状态，Food Top
 3. Q: Can you cook? — A: Yes, I can. I can cook simple meals.
 4. Q: What do you usually drink? — A: I usually drink water.
 5. Q: Do you like spicy food? — A: I like spicy food very much.
+
+### Topic: Shopping（新增，Standard Answer 待补全）
+1. Q: Where do you usually go shopping? — A: （本 Session 未逐字记录，待补全）
+2. Q: How often do you go shopping? — A: （本 Session 未逐字记录，待补全）
+3. Q: What do you usually buy? — A: （本 Session 未逐字记录，待补全）
+4. Q: Do you like shopping online? — A: （本 Session 未逐字记录，待补全）
+5. Q: Do you usually pay by cash or by card? — A: （本 Session 未逐字记录，待补全；注意此题曾误说成 "What do you usually pay by cash or by card?"，为本 Session 唯一重复出现的错误，需重点复习）
 
 ---
 
@@ -164,8 +174,9 @@ Confirm impact → Recover business → Locate root cause → Verify recovery
 
 最后我会组织团队做一次 RCA，把根因分析清楚，同时完善监控、告警和预案，
 避免同样的问题再次发生。
-（Mastery Status: Practicing — 三轮流程刚完成，尚未经过后续 Session 的
-Random Review）
+（Mastery Status: Practicing — 已完成 1 次锁定后 Random Review [Session 8,
+99/100]；补充执行层提醒：定位原因前应先通过监控/链路追踪确定 CPU 消耗
+集中环节，再基于证据排查具体组件，而不是先罗列所有可能原因）
 
 ---
 
@@ -189,6 +200,9 @@ Random Review）
 - **English Question Mode**：默认使用中文提示（Chinese Prompt Method），
   由学员自己说出英文 Question 与 Answer；该 Topic 完成 Immediate
   Reinforcement 后可切换为纯英文提问/回答，不再使用中文提示。
+- **English Coverage Rule（已切换）**：已学 Topic 数达到 6（> 5），Review
+  覆盖范围自 Session 8 起改为 Priority-Based Review Engine 抽样机制，不再
+  保证每个 Topic 每次都被覆盖。
 - **Java Language Rule**：Java Interview 全程使用中文，专有技术名词（JVM/
   Spring Boot/Redis 等）保留英文；Canonical Answer 逻辑结构永久锁定，不得
   重写，除非学员明确要求修订。
@@ -212,13 +226,12 @@ Random Review）
 
 ## 6. Next Session
 
-- English：继续 Review Topic 5（Food）的 Random Review；表现稳定后可
-  引入 Topic 6。Topic 1–4 按 Priority-Based Review Engine 继续轮换（已学
-  Topic 数达到 5，下次新增 Topic 6 后将超过 5，需转为抽样机制，见 SOT 第
-  7 节）。
-- Java：按 Scenario Interview Mode 引入下一个新场景——"Production OOM
-  (OutOfMemoryError)"；继续沿用当前教学流程 Interviewer Intent →
-  Thinking Process → Canonical Answer → User Practice → Review（该流程
-  仍为 Validation Only，非正式 SOT 规则，见第 5 节）。同时 Random Review
-  池已包含 What is Java? / Why do you use Java? / Scenario 1 / Scenario 2
-  四题。
+- English：复习 Topic 6（Shopping），并对 Topic 1–6 做随机复习
+  （Priority-Based Review Engine，已学 Topic 数超过 5，Self Introduction
+  等较早 Topic 不再保证每次全覆盖）；Shopping Question Pattern 这一重复
+  错误需重点复习；Shopping 表现稳定后可引入 Topic 7。
+- Java：随机复习既有已学 Interview Question/Scenario（What is Java? / Why
+  do you use Java? / Scenario 1 / Scenario 2）。若引入新场景，按 Scenario
+  Interview Mode 沿用当前教学流程 Interviewer Intent → Thinking Process →
+  Canonical Answer → User Practice → Review（该流程仍为 Validation Only，
+  非正式 SOT 规则，见第 5 节）。
