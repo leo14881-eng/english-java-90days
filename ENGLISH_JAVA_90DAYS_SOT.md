@@ -1390,6 +1390,53 @@ Standard Answer:
   - 中文谐音: 艾 尤磁尤力 瑞德 布克斯 哦 沃奇 木维兹 图 瑞莱克斯
 Mastery Status: Practicing
 
+Topic: Travel
+
+1.
+Question:
+  - English: Do you like traveling?
+  - 中文翻译: 你喜欢旅行吗？
+  - IPA: /duː juː laɪk ˈtrævəlɪŋ/
+  - 中文谐音: 度 尤 莱克 特拉沃林
+Standard Answer:（本 Session 未提供逐字标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+2.
+Question:
+  - English: Where do you want to travel in the future?
+  - 中文翻译: 你将来想去哪里旅行？
+  - IPA: /weər duː juː wɒnt tuː ˈtrævəl ɪn ðə ˈfjuːtʃə/
+  - 中文谐音: 威尔 度 尤 万特 图 特拉沃 因 泽 服丘
+Standard Answer:（本 Session 未提供逐字标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+3.
+Question:
+  - English: Who do you want to travel with?
+  - 中文翻译: 你想和谁一起旅行？
+  - IPA: /huː duː juː wɒnt tuː ˈtrævəl wɪð/
+  - 中文谐音: 呼 度 尤 万特 图 特拉沃 威兹
+Standard Answer:（本 Session 未提供逐字标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+4.
+Question:
+  - English: How do you usually travel?
+  - 中文翻译: 你通常怎么旅行？
+  - IPA: /haʊ duː juː ˈjuːʒuəli ˈtrævəl/
+  - 中文谐音: 好 度 尤 尤磁尤力 特拉沃
+Standard Answer:（本 Session 未提供逐字标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
+5.
+Question:
+  - English: What do you usually do when you travel?
+  - 中文翻译: 你旅行时通常做什么？
+  - IPA: /wɒt duː juː ˈjuːʒuəli duː wen juː ˈtrævəl/
+  - 中文谐音: 沃特 度 尤 尤磁尤力 度 温 尤 特拉沃
+Standard Answer:（本 Session 未提供逐字标准答案，下次 Session 确认后补全）
+Mastery Status: Practicing
+
 ## 12. Java Answer Bank
 
 记录格式：
@@ -1632,11 +1679,12 @@ Answer 本身。按 9.1 节标准，仅为锁定后首次复习，仍标记 Prac
 - 本小节内容每个 Session 结束时整体覆盖重写为下一次对话的窗口快照，不保留
   历史版本；完整历史仍完整保存在第 11/12/14 节，不受本小节覆盖影响。
 
-English Active Topics（截至 Session 10 / 2026-07-12，课程本身仅开始 6
-天，已学的全部 8 个 Topic 引入日期均在最近 7 天内 [最早 Self
-Introduction 为 2026-07-06]，因此当前 7 天窗口与已学 Topic 全集重合，尚
-无内容进入第 7 节的低频抽查池；下列按 Learning Recency 排序）：
-- Topic: Hobbies（最新学习，Practicing，首次 Review 已完成，2026-07-12）
+English Active Topics（截至 Session 11 / 2026-07-14，已学的全部 9 个 Topic
+引入日期均在最近 7 天内 [最早 Self Introduction 为 2026-07-06]，因此当前
+7 天窗口与已学 Topic 全集重合，尚无内容进入第 7 节的低频抽查池；下列按
+Learning Recency 排序）：
+- Topic: Travel（最新学习，Practicing，首次 Review/Random Review 已完成，2026-07-14）
+- Topic: Hobbies（2026-07-12）
 - Topic: Weather（2026-07-11）
 - Topic: Shopping（2026-07-10）
 - Topic: Food（2026-07-09）
@@ -1645,9 +1693,10 @@ Introduction 为 2026-07-06]，因此当前 7 天窗口与已学 Topic 全集重
 - Topic: English Learning（2026-07-06）
 - Topic: Self Introduction（2026-07-06，最早学习，仍在 7 天窗口内）
 
-Java Active Questions（截至 Session 10，当前 5 个已锁定 Question/Scenario
-引入日期均在最近 7 天内，同样与 7 天窗口全集重合；"JVM Full GC" 场景因
-第 12 节尚未正式写入，不计入本窗口，详见 13.2 与 SOT Check）：
+Java Active Questions（截至 Session 11，当前 5 个已锁定 Question/Scenario
+引入日期均在最近 7 天内，同样与 7 天窗口全集重合；"JVM Full GC"（Session
+10）与 "Database Connection Pool Exhausted"（Session 11）两个场景均因
+第 12 节尚未正式写入而不计入本窗口，详见 13.2 与 SOT Check）：
 - What is Java?（2026-07-06）
 - Why do you use Java?（2026-07-06）
 - Scenario 1：线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？（2026-07-09）
@@ -1656,47 +1705,43 @@ Java Active Questions（截至 Session 10，当前 5 个已锁定 Question/Scena
 
 ### 13.2 Session Detail
 
-- Session: 10（英语部分已同步；Java 部分待用户补充 Scenario 4 的逐字信息，
+- Session: 11（英语部分已同步；Java 部分两个场景均待用户补充逐字信息，
   详见本 Session Java 记录与文档结尾 SOT Check）
-- English：随机复习 Topic 1–7（Self Introduction / English Learning /
-  Daily Routine / Family / Food / Shopping / Weather），整体表现稳定，
-  多数问答 100/100。纠正：Shopping Q1 "I usually shopping..." → "I
-  usually go shopping..."；Shopping Q4 "I like shop online..." → "I
-  like shopping online..."（均已记入第 11 节对应条目 Review History）；
-  一般性纠正 "Yes, it's." → "Yes, it is."（本次未指明对应具体 Topic
-  条目，未回填改写第 11 节任何固定 Standard Answer，仅记录于此）。新学
-  Topic 8: Hobbies，5 组 Question & Standard Answer（What is your hobby? /
-  Do you like reading books? / What do you usually do in your free
-  time? / Do you like watching movies? / What do you usually do to
-  relax?）已按 English Learning Template 存入第 11 节；IPA 与中文谐音
-  本次会话总结未逐字提供，由 Claude 根据标准发音补充（沿用 Session 3 /
-  6 / 8 的既有做法），供后续发音练习参考。完成首次 Review，5 题均能正确
-  作答，纠正发音："hobby" 曾误读为 "hoppy"/"habby"，已按用户既定 Topic 8
-  标准答案原文（含 "I can learn new things" / "watch movies" 用词）
-  纠正。Topic 8 标记 Practicing（首次学习+首次 Review 完成，未满足第 9.1
-  节跨 Session Mastered 标准）；Topic 1–7 保持原有 Mastery Status 不变，
-  继续处于第 7 节 Priority-Based Review Engine 抽样机制下。已学 Topic
-  总数达到 8 个。
-- Java：Random Review "线上 CPU 突然达到 100%"（Scenario 2）与"线上核心
-  接口大量返回 HTTP 500"（Scenario 3），复述结构均与已锁定 Canonical
-  Answer 一致，用户总结为 "Stable"，未改写任一 Canonical Answer 文本，
-  已记入第 12 节对应 Review History（详见 Scenario 2/3）。用户另报告完成
-  了一个新场景 "JVM Full GC causing high RT" 的三轮训练并"固化"了一份
-  Final Canonical Answer（Confirm impact → Restore service first → 
-  Investigate with monitoring/GC logs/Heap Dump/thread dump → Focus on
-  memory leak/excessive object creation/large objects/cache issues →
-  Fix then observe → RCA，约 98/100），但会话总结提供的是英文要点列表，
-  未提供：(1) 逐字的 Interview Question 中文措辞；(2) Interviewer
-  Intent 分析；(3) 符合第 6 节 Java Interview Language Rule（中文，专有
-  名词保留英文）与既有 Scenario 1–3 记录格式的完整中文 Canonical
-  Answer 正文。按 Session 7 已确立的先例（不得在 Java Canonical Answer
-  缺少逐字文本时凭要点/评分自行重构正文），本 Session 未将其写入第 12
-  节新增 Scenario 4，避免锁定一份可能与用户实际当场表述不完全一致的
-  文本；已在下方 SOT Check 中标记 FAIL 并向用户请求补充。
-- Next Session：英语对 Topic 1–8 做随机复习（Priority-Based Review
-  Engine 抽样，不保证全覆盖），Hobbies 稳定后可引入 Topic 9: Travel；
-  Java 随机复习既有已学 Interview Question/Scenario，若用户已补充
-  Scenario 4（JVM Full GC）的逐字信息，则将其正式写入第 12 节并锁定。
+- English：复习 Topic "Self Introduction" / "Daily Routine" / "Family"
+  以及 Food / Shopping / Weather / Hobbies（合并汇报），均为 100%
+  Accuracy，未见需要回填第 11 节 Standard Answer 的具体语法纠正。一般性
+  发音/语法纠正（未指明对应具体 Topic 条目，未回填改写第 11 节任何固定
+  Standard Answer，仅记录于此）：local（曾误读为 "loal"）；its（所有格）
+  与 it's（= it is）的混淆。新学 Topic 9: Travel，5 组 Question（Do you
+  like traveling? / Where do you want to travel in the future? / Who do
+  you want to travel with? / How do you usually travel? / What do you
+  usually do when you travel?）已按 English Learning Template 存入第 11
+  节；Question 的中文翻译/IPA/中文谐音由 Claude 根据标准发音补充（沿用
+  既有做法），Standard Answer 本次会话总结未提供逐字文本，5 组均标注
+  待下次 Session 确认后补全（沿用 Session 2/7/8 的既有占位做法）。完成
+  Round1/Round2/Round3/Random Review，均为 100% Accuracy，Topic 9
+  标记 Practicing（同 Session 内达标不满足第 9.1 节跨 Session Mastered
+  标准，沿用 Session 9 Weather 的既有判定方式）；Topic 1–8 保持原有
+  Mastery Status 不变，继续处于第 7 节 Priority-Based Review Engine
+  抽样机制下。已学 Topic 总数达到 9 个。
+- Java：用户报告新学并完成三轮训练的场景 "Database Connection Pool
+  Exhausted"（标准处理流程：确认影响 → 恢复服务 → 定位根因 → 修复问题 →
+  验证恢复 → RCA；涉及根因方向：慢 SQL、长事务、连接泄漏、连接未释放、
+  连接池监控、线程 Dump、数据库会话；核心原则"不得盲目扩大连接池大小"；
+  Final Score 100/100），但会话总结提供的是英文流程要点与根因列表，未
+  提供：(1) 逐字的 Interview Question 中文措辞；(2) Interviewer Intent
+  分析；(3) 符合第 6 节 Java Interview Language Rule（中文，专有名词保留
+  英文）与既有 Scenario 1–3 记录格式的完整中文 Canonical Answer 正文。
+  按 Session 7/10 已确立的先例（不得在 Java Canonical Answer 缺少逐字
+  文本时凭要点/评分自行重构正文），本 Session 未将其写入第 12 节新增
+  Scenario。另外，Session 10 遗留的 "JVM Full GC causing high RT" 场景
+  同样因缺少逐字中文文本，至今仍未补充、仍未写入第 12 节。两个场景均在
+  下方 SOT Check 中标记 FAIL 并向用户请求补充逐字信息。
+- Next Session：英语对 Topic 1–9 做随机复习（Priority-Based Review
+  Engine 抽样，不保证全覆盖）；Java 随机复习既有已学 Interview
+  Question/Scenario，若用户已补充 "JVM Full GC" 与/或 "Database
+  Connection Pool Exhausted" 的逐字信息，则按提供顺序正式写入第 12 节
+  并锁定。
 
 ## 14. Learning Log
 
@@ -2029,3 +2074,37 @@ Java Active Questions（截至 Session 10，当前 5 个已锁定 Question/Scena
   Engine 做低频抽查而非永久排除，"全面复习/full review"时不受窗口限制。
   已写入第 7 节新增小节，第 13.1 节机制说明与当前窗口快照同步更新；版本
   由 V11.17 推进至 V11.18。
+
+### Session 11（2026-07-14）
+
+- English：复习 Topic "Self Introduction"（100%）、"Daily Routine"
+  （100%）、"Family"（100%），以及 Food / Shopping / Weather / Hobbies
+  （合并汇报，100%），整体表现优秀，未出现需要回填第 11 节 Standard
+  Answer 的具体语法错误。发音/语法一般性纠正："local" 曾误读为 "loal"；
+  its（所有格）与 it's（= it is）的混淆，均已纠正（未指明对应具体
+  Topic 条目，未回填改写第 11 节任何固定 Standard Answer）。新学 Topic
+  9: Travel，5 组 Question（Do you like traveling? / Where do you want
+  to travel in the future? / Who do you want to travel with? / How do
+  you usually travel? / What do you usually do when you travel?）已按
+  English Learning Template 存入第 11 节；Question 的中文翻译/IPA/中文
+  谐音由 Claude 根据标准发音补充，Standard Answer 本次会话总结未提供
+  逐字文本，5 组均标注待下次 Session 确认后补全（沿用 Session 2/7/8 的
+  既有占位做法）。完成 Round1/Round2/Round3/Random Review，均为 100%
+  Accuracy，Topic 9 标记 Practicing——同一 Session 内达标只是流利度
+  达标，不满足第 9.1 节跨 Session 持续稳定表现的 Mastered 标准（沿用
+  Session 9 Weather 的既有判定方式），不采用会话总结中"进入 Active
+  Review Window 即视为稳定"的表述。已学 Topic 总数达到 9 个。
+- Java：用户报告新学场景 "Database Connection Pool Exhausted"，完成
+  三轮训练，Final Score 100/100，标准处理流程为确认影响 → 恢复服务 →
+  定位根因 → 修复问题 → 验证恢复 → RCA，涉及根因方向包括慢 SQL、长
+  事务、连接泄漏、连接未释放、连接池监控、线程 Dump、数据库会话，核心
+  原则为"不得盲目扩大连接池大小"。但会话总结仅提供英文流程要点与根因
+  列表，缺少逐字的 Interview Question 中文措辞、Interviewer Intent
+  分析，以及符合第 6 节 Java Interview Language Rule 与既有 Scenario
+  1–3 记录格式的完整中文 Canonical Answer 正文。按 Session 7/10 已确立
+  的先例，未凭要点/评分自行重构正文写入第 12 节，本 Session 未新增
+  Scenario 记录。Session 10 遗留的 "JVM Full GC causing high RT" 场景
+  同样仍未补充逐字信息、仍未写入第 12 节。已在下方 SOT Check 中标记
+  FAIL，并向用户请求补充这两个场景的逐字中文信息。
+- 架构：本 Session 未发现新的架构缺陷，未修改第一部分课程规范，版本
+  保持 V11.18。
