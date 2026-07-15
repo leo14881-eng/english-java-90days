@@ -145,12 +145,12 @@ Learning / Self Introduction 仍需低频抽到，不得永久跳过。
 5. Q: What do you usually do when you travel? — A: （本 Session 未提供逐字标准答案，待补全）
 
 ### Topic: Technology（V11.19 新增，Level 1）
-1. Q: Do you like technology? — A: Technology makes my life easier.
-2. Q: What technology do you use every day? — A: I use my computer and smartphone every day.
-3. Q: How does technology help you at work? — A: It helps me write code.
-4. Q: What is your favorite app? — A: My favorite app is ChatGPT.
-5. Q: Do you think AI is useful? — A: AI helps people save time.
-6. Q: What new technology would you like to learn? — A: I'd like to learn AI.
+1. Q: Do you like technology? — A: Yes, I do. Technology makes my life easier.
+2. Q: What technology do you use every day? — A: I use my computer and smartphone every day. I use them for work and study.
+3. Q: How does technology help you at work? — A: It helps me write code. It makes my work easier.
+4. Q: What is your favorite app? — A: My favorite app is ChatGPT. I use it every day.
+5. Q: Do you think AI is useful? — A: Yes, I do. AI helps people save time.
+6. Q: What new technology would you like to learn? — A: I'd like to learn AI. I think it is very useful.
 
 下一次 Session 目标：Technology 进入 Level 2（为每个 Answer 增加一句
 话）；新学 Topic 11 Level 1。

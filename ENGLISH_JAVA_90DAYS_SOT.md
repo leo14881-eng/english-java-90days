@@ -1607,10 +1607,10 @@ Question:
   - IPA: /duː juː laɪk tekˈnɒlədʒi/
   - 中文谐音: 度 尤 莱克 泰克诺勒吉
 Standard Answer:
-  - English: Technology makes my life easier.
-  - 中文翻译: 科技让我的生活更轻松。
-  - IPA: /tekˈnɒlədʒi meɪks maɪ laɪf ˈiːziə/
-  - 中文谐音: 泰克诺勒吉 妹克斯 买 莱夫 伊季厄
+  - English: Yes, I do. Technology makes my life easier.
+  - 中文翻译: 是的，我喜欢。科技让我的生活更轻松。
+  - IPA: /jes aɪ duː tekˈnɒlədʒi meɪks maɪ laɪf ˈiːziə/
+  - 中文谐音: 耶斯 埃 度 泰克诺勒吉 妹克斯 买 莱夫 伊季厄
 Mastery Status: Practicing
 
 2.
@@ -1620,10 +1620,10 @@ Question:
   - IPA: /wɒt tekˈnɒlədʒi duː juː juːz ˈevri deɪ/
   - 中文谐音: 沃特 泰克诺勒吉 度 尤 尤兹 埃夫瑞 得
 Standard Answer:
-  - English: I use my computer and smartphone every day.
-  - 中文翻译: 我每天使用电脑和智能手机。
-  - IPA: /aɪ juːz maɪ kəmˈpjuːtər ənd ˈsmɑːtfəʊn ˈevri deɪ/
-  - 中文谐音: 埃 尤兹 买 康皮尤特 安德 斯马特风 埃夫瑞 得
+  - English: I use my computer and smartphone every day. I use them for work and study.
+  - 中文翻译: 我每天使用电脑和智能手机。我把它们用于工作和学习。
+  - IPA: /aɪ juːz maɪ kəmˈpjuːtər ənd ˈsmɑːtfəʊn ˈevri deɪ aɪ juːz ðəm fɔː wɜːk ənd ˈstʌdi/
+  - 中文谐音: 埃 尤兹 买 康皮尤特 安德 斯马特风 埃夫瑞 得 埃 尤兹 泽姆 佛 沃克 安德 斯塔迪
 Mastery Status: Practicing
 
 3.
@@ -1633,10 +1633,10 @@ Question:
   - IPA: /haʊ dʌz tekˈnɒlədʒi help juː æt wɜːk/
   - 中文谐音: 好 达兹 泰克诺勒吉 海尔普 尤 艾特 沃克
 Standard Answer:
-  - English: It helps me write code.
-  - 中文翻译: 它帮助我写代码。
-  - IPA: /ɪt helps miː raɪt kəʊd/
-  - 中文谐音: 伊特 海尔普斯 米 莱特 扣德
+  - English: It helps me write code. It makes my work easier.
+  - 中文翻译: 它帮助我写代码。它让我的工作更轻松。
+  - IPA: /ɪt helps miː raɪt kəʊd ɪt meɪks maɪ wɜːk ˈiːziə/
+  - 中文谐音: 伊特 海尔普斯 米 莱特 扣德 伊特 妹克斯 买 沃克 伊季厄
 Mastery Status: Practicing
 
 4.
@@ -1646,10 +1646,10 @@ Question:
   - IPA: /wɒt ɪz jɔː ˈfeɪvərɪt æp/
   - 中文谐音: 沃特 伊兹 尤 费沃瑞特 阿普
 Standard Answer:
-  - English: My favorite app is ChatGPT.
-  - 中文翻译: 我最喜欢的 App 是 ChatGPT。
-  - IPA: /maɪ ˈfeɪvərɪt æp ɪz ˌtʃæt dʒiː piː ˈtiː/
-  - 中文谐音: 买 费沃瑞特 阿普 伊兹 恰特 吉皮提
+  - English: My favorite app is ChatGPT. I use it every day.
+  - 中文翻译: 我最喜欢的 App 是 ChatGPT。我每天都使用它。
+  - IPA: /maɪ ˈfeɪvərɪt æp ɪz ˌtʃæt dʒiː piː ˈtiː aɪ juːz ɪt ˈevri deɪ/
+  - 中文谐音: 买 费沃瑞特 阿普 伊兹 恰特 吉皮提 埃 尤兹 伊特 埃夫瑞 得
 Mastery Status: Practicing
 
 5.
@@ -1659,10 +1659,10 @@ Question:
   - IPA: /duː juː θɪŋk ˌeɪ ˈaɪ ɪz ˈjuːsfəl/
   - 中文谐音: 度 尤 星克 诶挨 伊兹 尤斯佛
 Standard Answer:
-  - English: AI helps people save time.
-  - 中文翻译: AI 帮助人们节省时间。
-  - IPA: /ˌeɪ ˈaɪ helps ˈpiːpəl seɪv taɪm/
-  - 中文谐音: 诶挨 海尔普斯 皮泼 塞夫 泰姆
+  - English: Yes, I do. AI helps people save time.
+  - 中文翻译: 是的，我觉得有用。AI 帮助人们节省时间。
+  - IPA: /jes aɪ duː ˌeɪ ˈaɪ helps ˈpiːpəl seɪv taɪm/
+  - 中文谐音: 耶斯 埃 度 诶挨 海尔普斯 皮泼 塞夫 泰姆
 Mastery Status: Practicing
 
 6.
@@ -1672,10 +1672,10 @@ Question:
   - IPA: /wɒt njuː tekˈnɒlədʒi wʊd juː laɪk tuː lɜːn/
   - 中文谐音: 沃特 纽 泰克诺勒吉 伍德 尤 莱克 图 勒恩
 Standard Answer:
-  - English: I'd like to learn AI.
-  - 中文翻译: 我想学习 AI。
-  - IPA: /aɪd laɪk tuː lɜːn ˌeɪ ˈaɪ/
-  - 中文谐音: 艾德 莱克 图 勒恩 诶挨
+  - English: I'd like to learn AI. I think it is very useful.
+  - 中文翻译: 我想学习 AI。我觉得它非常有用。
+  - IPA: /aɪd laɪk tuː lɜːn ˌeɪ ˈaɪ aɪ θɪŋk ɪt ɪz ˈveri ˈjuːsfəl/
+  - 中文谐音: 艾德 莱克 图 勒恩 诶挨 埃 星克 伊特 伊兹 维瑞 尤斯佛
 Mastery Status: Practicing
 
 ### 11.2 Daily Native Expressions Bank（V11.19 新增，见第 4.5 节）
