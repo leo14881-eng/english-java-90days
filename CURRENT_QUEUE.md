@@ -12,16 +12,17 @@ Active Review Window）。本文件与其内容不一致时，以 SOT 为准。
 不保留旧内容）。此约定记录在维护者的会话记忆中，不属于 SOT 第一部分，
 不受 Architecture Freeze 约束。
 
-Generated: 2026-07-16（基于 SOT V11.19，Session 12 完成后状态）。**本次
-SOT 发生架构变更（V11.19）**：新增 Level System（第 4.1 节）、Daily
-Native Expressions 模块（第 4.5 节）、第 4.2 节六步 Session 流程、Java
-Interview 移出每日固定环节（第 5 节）、第 7 节新增轮内去重规则，详见 SOT
-文档开头版本历史。新增 English Topic 10: Technology（Level 1，6 组
-Q&A），新增 Daily Native Expressions Day 1；已学 English Topic 数达到
-10；Self Introduction / English Learning（2026-07-06）与 Daily Routine
-（2026-07-07）本次首次滚出 7 天窗口，转入低频抽查池。Java 侧本 Session
-未安排练习（符合 V11.19 新架构），仍有两个场景因缺少逐字信息**尚未**写入
-第 12 节——Session 10 的 "JVM Full GC" 与 Session 11 的 "Database
+Generated: 2026-07-18（基于 SOT V11.19，Session 13 完成后状态）。本次
+Session 未发生架构变更，版本保持 V11.19。新增 English Topic 11: Sports
+（Level 1，6 组 Q&A，两句式 Standard Answer 完整保留，未缩短）；已学
+English Topic 数达到 11。用户明确要求本次不新开下一个 Topic（Topic
+12），持续对 Sports 做肌肉记忆强化，优先在 Sports 稳定掌握后再推进——
+这是比第 4.4 节"Level 1 完成即可推进"更保守的节奏选择，不构成对该节的
+修改。Shopping（2026-07-10）、Family / Food（均 2026-07-09）本次滚出 7
+天窗口，转入低频抽查池。Daily Native Expressions 本 Session 未安排
+Step2/Step5，Day 2 未新增，快照维持 Day 1。Java 侧本 Session 未安排
+练习（符合 V11.19 新架构），仍有两个场景因缺少逐字信息**尚未**写入第
+12 节——Session 10 的 "JVM Full GC" 与 Session 11 的 "Database
 Connection Pool Exhausted"，均仍待用户补充。
 
 ---
@@ -35,33 +36,39 @@ Connection Pool Exhausted"，均仍待用户补充。
 轮复习内避免立即重复同一题，直到窗口内其它内容都至少问过一轮；学员显式
 要求"全面复习 / full review"时不受 7 天窗口限制。
 
-已学 Topic 总数为 10。以下按 Learning Recency 排序，仍在 7 天窗口内：
+已学 Topic 总数为 11。以下按 Learning Recency 排序，仍在 7 天窗口内：
 
-1. Technology — Level 1，Practicing，最高优先级，最新学习（2026-07-16），
-   已完成 5 轮 Review
-2. Travel — Practicing（2026-07-14）
-3. Hobbies — Practicing（2026-07-12）
-4. Weather — Practicing（2026-07-11）
-5. Shopping — Practicing（2026-07-10）
-6. Food — Practicing（2026-07-09，第 7 天边界，仍计入窗口）
-7. Family — Practicing（2026-07-09，第 7 天边界，仍计入窗口）
+1. Sports — Level 1，Practicing，最高优先级，最新学习（2026-07-18），
+   已完成约 6 轮随机顺序 Immediate Reinforcement，最终准确率约 100%；
+   Question 4（Who）与 Question 5（Where）曾串题一次，下次 Session 需
+   优先交叉强化
+2. Technology — Level 1，Practicing（2026-07-16），已完成 Session 12
+   内 5 轮 Review + Session 13 跨 Session Random Review 6/6
+3. Travel — Practicing（2026-07-14）
+4. Hobbies — Practicing（2026-07-12）
+5. Weather — Practicing（2026-07-11，第 7 天边界，仍计入窗口）
 
 **已滚出 7 天窗口，转入低频抽查池**（不代表被排除，仍会被抽到）：
+- Shopping（2026-07-10）
+- Food（2026-07-09）
+- Family（2026-07-09）
 - Daily Routine（2026-07-07）
 - English Learning（2026-07-06）
 - Self Introduction（2026-07-06，最早学习）
 
-下一次 Session 应优先复习 Technology 与 Travel，再按 Mastery Status +
-Learning Recency 抽取窗口内其它 Topic；窗口外的 Daily Routine / English
+下一次 Session 应先在窗口内做随机复习（Sports / Technology / Travel /
+Hobbies / Weather，随机顺序、避免立即重复同一题），再针对 Sports 做重点
+强化；窗口外的 Shopping / Food / Family / Daily Routine / English
 Learning / Self Introduction 仍需低频抽到，不得永久跳过。
 
 不得：
-- 把 Technology 标记为 Mastered（同 Session 内达标不满足跨 Session 稳定
-  标准）；
+- 把 Sports 或 Technology 标记为 Mastered（同 Session 内/首次跨 Session
+  达标均不满足第 9.1 节持续稳定标准）；
 - 把超过 7 天的 Topic 永久排除出复习体系；
 - 假设 Travel / Shopping 的 Standard Answer 已有逐字定稿——均待补全；
-- 认为 Topic 9（Travel）未 Mastered 就不该有 Topic 10——V11.19 起 Topic
-  推进门槛已改为"Level 1 完成"，这是预期行为，不是错误。
+- 在 Sports 稳定掌握之前开始 Topic 12——用户本次明确要求先稳定 Sports
+  再推进（比第 4.4 节"Level 1 完成即可推进"更保守，非架构规则变更）；
+- 缩短或改写 Sports 的两句式 Standard Answer（须完整保留两句话）。
 
 ---
 
@@ -75,11 +82,21 @@ Learning / Self Introduction 仍需低频抽到，不得永久跳过。
   （曾纠正：after/before 混淆、"my phone" 冠词遗漏、"after I wake up"
   语序）
 
-下一次 Session 学习 Day 2。
+Session 13 未安排 Step2/Step5，未新增 Day 2，与第 4.2 节六步流程存在
+偏差，建议下一次 Session 优先补上。
 
 ---
 
 ## 2. English Active Question Bank
+
+### Topic: Sports（V11.19 新增，Level 1，Standard Answer 均为两句式，须
+完整保留，不得缩短）
+1. Q: Do you like sports? — A: Yes, I do. I like sports because it's good for my health.（曾误说成 "It's good for my healthy."，已纠正）
+2. Q: What is your favorite sport? — A: My favorite sport is badminton. It's fun and good exercise.（提问本身曾被误说成 "Why is your favorite sport?"，已纠正为 "What is your favorite sport?"）
+3. Q: How often do you play sports? — A: I usually play sports once or twice a week. It helps me stay healthy.（曾误说成 "It helps me healthy."，已纠正）
+4. Q: Who do you usually play sports with? — A: I usually play sports with my friends. We enjoy playing together.（与 Q5 曾串题一次，下次 Session 需交叉强化）
+5. Q: Where do you usually play sports? — A: I usually play sports at the park or at the gym. They are good places to exercise.（曾误说成 "They are good place to exercise."，已纠正单复数；与 Q4 曾串题一次，下次 Session 需交叉强化）
+6. Q: Why is exercise important? — A: Exercise is important because it keeps me healthy. It also helps me relax.
 
 ### Topic: Self Introduction（已滚出 7 天窗口，低频抽查）
 1. Q: Hello! — A: Hello!
@@ -102,21 +119,21 @@ Learning / Self Introduction 仍需低频抽到，不得永久跳过。
 4. Q: What do you usually do before you go to bed? — A: I usually read a book before I go to bed.
 5. Q: What do you usually do on weekends? — A: I usually study English on weekends.
 
-### Topic: Family
+### Topic: Family（已滚出 7 天窗口，低频抽查）
 1. Q: Do you have a family? — A: Yes, I do. I have a happy family.
 2. Q: How many people are there in your family? — A: There are three people in my family.
 3. Q: Who do you live with? — A: I live with my wife.
 4. Q: What does your wife do? — A: She is a teacher.
 5. Q: Do you often spend time with your family? — A: Yes, I do. I often spend time with my family.
 
-### Topic: Food
+### Topic: Food（已滚出 7 天窗口，低频抽查）
 1. Q: What is your favorite food? — A: My favorite food is hot pot.
 2. Q: What food do you eat most often? — A: I eat rice most often.（本次 Review 曾使用非 Canonical 变体 "What do you usually eat?"，Canonical Question 未被覆盖，仍以本条为准）
 3. Q: Can you cook? — A: Yes, I can. I can cook simple meals.
 4. Q: What do you usually drink? — A: I usually drink water.
 5. Q: Do you like spicy food? — A: I like spicy food very much.
 
-### Topic: Shopping（Standard Answer 待补全）
+### Topic: Shopping（已滚出 7 天窗口，低频抽查；Standard Answer 待补全）
 1. Q: Where do you usually go shopping? — A: （本 Session 未逐字记录，待补全；Session 10 纠正过 "I usually shopping..." → "I usually go shopping..."）
 2. Q: How often do you go shopping? — A: （本 Session 未逐字记录，待补全；注意与 Travel "How do you usually travel?" 句式易混淆）
 3. Q: What do you usually buy? — A: （本 Session 未逐字记录，待补全）
@@ -152,8 +169,9 @@ Learning / Self Introduction 仍需低频抽到，不得永久跳过。
 5. Q: Do you think AI is useful? — A: Yes, I do. AI helps people save time.
 6. Q: What new technology would you like to learn? — A: I'd like to learn AI. I think it is very useful.
 
-下一次 Session 目标：Technology 进入 Level 2（为每个 Answer 增加一句
-话）；新学 Topic 11 Level 1。
+下一次 Session 目标：先随机复习最近 7 天内容（避免重复提问），再重点
+强化 Sports（尤其交叉强化 Question 4/5），只有 Sports 稳定掌握后才开始
+下一个新 Topic（Topic 12），每次新增不超过 6 组问答。
 
 ---
 
@@ -164,15 +182,16 @@ Learning / Self Introduction 仍需低频抽到，不得永久跳过。
 Interview Question/Scenario 中抽取；超过 7 天的题目不退出复习体系，改由
 Priority-Based Review Engine（按 Mastery Status：Needs Review >
 Practicing > New > Mastered）做低频抽查。本 Session 未安排 Java 练习，
-窗口维持 Session 11 状态不变。
+按 7 天窗口重新计算（距今 2026-07-18）。
 
 仍在 7 天窗口内：
 - Interview Topic: Production Incident Scenarios
-  - Scenario 1: 线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？（2026-07-09，第 7 天边界，仍计入窗口）
-  - Scenario 2: 线上 CPU 突然达到 100%，你会如何处理？（2026-07-09，第 7 天边界，仍计入窗口；已完成 2 次锁定后 Random Review，Stable）
-  - Scenario 3: 线上某个核心接口突然大量返回 HTTP 500，但只有一个接口受影响，系统资源和公共依赖均正常，应如何分析和处理？（2026-07-11，已完成 1 次锁定后 Random Review，Stable）
+  - Scenario 3: 线上某个核心接口突然大量返回 HTTP 500，但只有一个接口受影响，系统资源和公共依赖均正常，应如何分析和处理？（2026-07-11，第 7 天边界，仍计入窗口；已完成 1 次锁定后 Random Review，Stable）
 
 已滚出 7 天窗口，转入低频抽查池：
+- Interview Topic: Production Incident Scenarios
+  - Scenario 1: 线上接口 RT 从 50ms 飙升到 3 秒，作为值班负责人你会如何处理？（2026-07-09）
+  - Scenario 2: 线上 CPU 突然达到 100%，你会如何处理？（2026-07-09；已完成 2 次锁定后 Random Review，Stable）
 - Interview Topic: Java Basics（已完成，永久保留在 Random Review 池，见
   Scenario Interview Mode）
   - Interview Question: What is Java?（2026-07-06）
@@ -352,10 +371,12 @@ Answer 正文——待用户补充后方可正式锁定。
   学今天新 Topic（Level 1）→ Step5 学今天 Daily Native Expressions →
   Step6 生成 Today's Learning Summary。Java Interview **不包含**在六步
   流程内，改为学员另行安排/明确要求时进行的独立模块。
-- **Level System（V11.19）**：Topic 内容分 Level 1（入门单句）→ Level 2
-  （每个 Answer +1 句）→ Level 3（规则待进入该阶段后再定义）。完成 Level
-  1 初次流利练习即可开始下一个新 Topic，不再要求先 Mastered；已开始新
-  Topic 后，旧 Topic 仍需继续推进 Level 与 Mastery。
+- **Level System（V11.19）**：Topic 内容分 Level 1（入门单句/双子句）→
+  Level 2（每个 Answer +1 句）→ Level 3（规则待进入该阶段后再定义）。
+  完成 Level 1 初次流利练习即满足开始下一个新 Topic 的**最低条件**，不
+  强制立即推进——学员可选择更保守的节奏（如本次 Sports 稳定前不开
+  Topic 12），不违反本规则；已开始新 Topic 后，旧 Topic 仍需继续推进
+  Level 与 Mastery。
 - **Daily Native Expressions（V11.19）**：与 Topic 系统并列的独立内容流，
   每天固定新增约 3 句，围绕同一真实生活场景，流程与 Graduated 判定同英语
   Topic。
@@ -377,15 +398,15 @@ Answer 正文——待用户补充后方可正式锁定。
 - **English Question Mode**：默认使用中文提示（Chinese Prompt Method），
   由学员自己说出英文 Question 与 Answer；该内容完成 Immediate
   Reinforcement 后可切换为纯英文提问/回答，不再使用中文提示。
-- **English Coverage Rule（已切换）**：已学 Topic 数达到 10（> 5），
+- **English Coverage Rule（已切换）**：已学 Topic 数达到 11（> 5），
   Review 覆盖范围为 Priority-Based Review Engine 抽样机制，不再保证每个
   Topic 每次都被覆盖。
 - **7-Day Active Window 分层规则（英语 + Java + Daily Native
   Expressions）**：日常复习默认只从最近 7 天内学习/引入的内容中抽取；
   超过 7 天的内容不退出复习体系，改由 Priority-Based Review Engine 做
   低频抽查，不放入默认队列，但不被永久排除；学员显式要求"全面复习/full
-  review"时不受窗口限制。**本 Session 起** Self Introduction / English
-  Learning / Daily Routine 已滚出窗口，转入低频抽查池。
+  review"时不受窗口限制。**本 Session 起** Shopping / Food / Family 已
+  滚出窗口，转入低频抽查池。
 - **轮内去重规则（V11.19）**：同一轮随机复习内避免立即重复同一题，直到
   窗口内其它内容都至少问过一轮才允许重复；不要求覆盖完整题库。
 - **Java Language Rule**：Java Interview 全程使用中文，专有技术名词（JVM/
@@ -414,15 +435,16 @@ Answer 正文——待用户补充后方可正式锁定。
 
 ## 6. Next Session
 
-- English：Step1 复习昨天 Topic（Technology）；Step2 复习昨天 Daily
-  Native Expressions（Day 1）；Step3 最近 7 天随机复习（Technology /
-  Travel / Hobbies / Weather / Shopping / Food / Family，注意 Shopping
-  "How often...go shopping" 与 Travel "How...usually travel" 易混淆、
-  "once a week" 与 "once or twice a year" 易混淆；Daily Routine/English
-  Learning/Self Introduction 已转入低频抽查，仍需偶尔覆盖）；Step4 学
-  Topic 10 Technology 进入 Level 2（为每个 Answer 增加一句话）+ 新学
-  Topic 11 Level 1；Step5 学 Daily Native Expressions Day 2；Step6 生成
-  总结。Travel / Shopping 的 Standard Answer 待用户补充逐字文本。
+- English：先做最近 7 天随机复习（Sports / Technology / Travel /
+  Hobbies / Weather，随机顺序、避免立即重复同一题，见第 7 节轮内去重
+  规则；Shopping / Food / Family / Daily Routine / English
+  Learning / Self Introduction 已转入低频抽查，仍需偶尔覆盖），再针对
+  Sports 做重点强化，优先交叉强化 Question 4（Who）与 Question 5
+  （Where）——本次唯一重复出现的混淆点。只有 Sports 全部 6 组稳定、不再
+  混淆后，才开始下一个新 Topic（Topic 12），每次新增不超过 6 组问答。
+  另建议补上本 Session 缺失的 Daily Native Expressions Step2/Step5
+  （Day 2），避免连续多个 Session 遗漏该模块。Travel / Shopping 的
+  Standard Answer 待用户补充逐字文本。
 - Java：V11.19 起为独立模块，若学员安排练习：优先补充 "JVM Full GC
   causing high RT" 和/或 "Database Connection Pool Exhausted" 场景的
   逐字 Interview Question、Interviewer Intent 与完整中文 Canonical
